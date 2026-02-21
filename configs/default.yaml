@@ -1,0 +1,40 @@
+data:
+  raw_prices_path: data/raw/sample_prices.csv
+  processed_path: data/processed/features.csv
+
+features:
+  rsi_window: 2
+  ma_fast: 2
+  ma_slow: 3
+
+model:
+  target_horizon: 1
+  test_size: 0.2
+
+risk:
+  max_weight_per_stock: 0.1
+
+news:
+  lookback_days: 30
+  limit_per_company: 5
+  max_workers: 16
+  universe_csv: data/raw/nse_companies.csv
+  max_companies:
+  outputs:
+    company_summary_csv: data/processed/company_news_sentiment_summary_30d.csv
+    company_details_csv: data/processed/company_news_sentiment_details_30d.csv
+    ceo_summary_csv: data/processed/ceo_commentary_sentiment_summary_30d.csv
+    ceo_details_csv: data/processed/ceo_commentary_sentiment_details_30d.csv
+
+fundamentals:
+  universe_csv: data/raw/nse_companies.csv
+  # Keep blank/null for all stocks in universe_csv.
+  max_companies:
+  max_workers: 16
+  top_n: 50
+  company_sentiment_csv: data/processed/company_news_sentiment_summary_30d.csv
+  ceo_sentiment_csv: data/processed/ceo_commentary_sentiment_summary_30d.csv
+  outputs:
+    raw_fundamentals_csv: data/processed/fundamentals_raw.csv
+    ranked_report_csv: data/processed/fundamentals_ranked_report.csv
+    top_picks_csv: data/processed/fundamentals_top_picks.csv
