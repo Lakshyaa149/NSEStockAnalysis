@@ -156,3 +156,33 @@ Current defaults are fresh-first:
 - Promoter holding currently uses insider-holding proxy where direct promoter data is unavailable.
 - External providers may throttle or return partial fields.
 - Policy-beneficiary output is signal-based and should be validated with fundamentals and risk controls.
+
+## Docker
+
+Build image:
+
+```bash
+docker build -t nsestockanalysis:latest .
+```
+
+Run container:
+
+```bash
+docker run --rm -p 8501:8501 nsestockanalysis:latest
+```
+
+Then open:
+
+- `http://localhost:8501`
+
+Optional (run detached):
+
+```bash
+docker run -d --name nsestockanalysis -p 8501:8501 nsestockanalysis:latest
+```
+
+Stop detached container:
+
+```bash
+docker stop nsestockanalysis
+```
