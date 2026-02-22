@@ -330,7 +330,7 @@ BMWVENTLTD,BMWVENTLTD.NS,BMW Ventures Limited,Steel,Basic Materials,14.102625,,,
 BODALCHEM,BODALCHEM.NS,Bodal Chemicals Limited,Specialty Chemicals,Basic Materials,17.14235,6.784507,,0.547461,77.215,,,0.01617,6077536256.0,59.309999999999995
 BOHRAIND,BOHRAIND.NS,Bohra Industries Limited,Agricultural Inputs,Basic Materials,,,,0.5624045,1.562,,,0.0,204810352.0,0.0
 BOMDYEING,BOMDYEING.NS,Bombay Dyeing & Mfg Company Limited,Textile Manufacturing,Consumer Cyclical,137.39287,,,1.0413152,0.13,,,0.01224,23836192768.0,56.37799999999999
-BONLON,BONLON.NS,Bonlon Industries Limited,,,,,,,,,,,,
+BONLON,BONLON.NS,Bonlon Industries Limited,,,,,,0.7968502,49.692,,,0.0032,,72.60799999999999
 BORANA,BORANA.NS,Borana Weaves Limited,Textile Manufacturing,Consumer Cyclical,43.474575,,,4.130479,17.66,,,0.15904,10251778048.0,79.468
 BOROLTD,BOROLTD.NS,Borosil Limited,"Furnishings, Fixtures & Appliances",Consumer Cyclical,40.80414,31.44172,,3.5814614,9.413,,,0.06364,30642919424.0,67.805
 BORORENEW,BORORENEW.NS,BOROSIL RENEWABLES LIMITED,Solar,Technology,,,,5.7151203,22.805,,,-0.04032,67199524864.0,60.758
@@ -413,7 +413,7 @@ CIGNITITEC,CIGNITITEC.NS,Cigniti Technologies Limited,Information Technology Ser
 CINELINE,CINELINE.NS,Cineline India Limited,Entertainment,Communication Services,,,,1.9742906,71.321,,,-0.02085,2862960384.0,57.328
 CINEVISTA,CINEVISTA.NS,Cinevista Limited,Entertainment,Communication Services,inf,,,1.7576172,43.705,,,-0.73116994,887967936.0,73.289
 CIPLA,CIPLA.NS,Cipla Limited,Drug Manufacturers - Specialty & Generic,Healthcare,23.867237,23.818281,,3.2907925,1.415,,,0.16256,1083314667520.0,30.959999999999997
-CLEAN,CLEAN.NS,Clean Science and Technology Limited,Specialty Chemicals,Basic Materials,30.768064,0.28457722,,5.034196,0.142,,,0.25281,75701608448.0,54.886
+CLEAN,CLEAN.NS,Clean Science and Technology Limited,Specialty Chemicals,Basic Materials,30.768064,0.2855617,,5.034196,0.142,,,0.25281,75701608448.0,54.886
 CLEDUCATE,CLEDUCATE.NS,CL Educate Limited,Education & Training Services,Consumer Defensive,,,,0.93740284,103.966,,,-0.060560003,2619618048.0,64.544
 CLSEL,CLSEL.NS,Chaman Lal Setia Exports Limited,Packaged Foods,Consumer Defensive,14.34971,,,1.7753786,8.804,,,0.07329,13540718592.0,75.922996
 CMSINFO,CMSINFO.NS,CMS Info Systems Limited,Specialty Business Services,Industrials,16.287487,12.64045,,2.2203894,9.543,,,0.13015,51808849920.0,7.7219999999999995
@@ -470,7 +470,7 @@ DAMCAPITAL,DAMCAPITAL.NS,Dam Capital Advisors Limited,Capital Markets,Financial 
 DAMODARIND,DAMODARIND.NS,Damodar Industries Limited,Textile Manufacturing,Consumer Cyclical,6.4832044,,,0.39824766,122.316,,,0.022349998,587162752.0,74.656
 DANGEE,DANGEE.NS,Dangee Dums Limited,Restaurants,Consumer Cyclical,,,,2.9612546,121.846,,,-0.017549999,494259776.0,
 DATAMATICS,DATAMATICS.NS,Datamatics Global Services Limited,Information Technology Services,Technology,24.039745,18.090183,,3.2196653,12.851,,,0.09916,46832943104.0,79.997003
-DATAPATTNS,DATAPATTNS.NS,Data Patterns (India) Limited,Aerospace & Defense,Industrials,67.570755,47.723904,,10.860911,0.378,,,0.25311002,167089750016.0,54.69199999999999
+DATAPATTNS,DATAPATTNS.NS,Data Patterns (India) Limited,Aerospace & Defense,Industrials,67.570755,47.34173,,10.860911,0.378,,,0.25311002,167089750016.0,54.69199999999999
 DAVANGERE,DAVANGERE.NS,Davangere Sugar Company Limited,Confectioners,Consumer Defensive,83.8,,,0.12172094,46.8,,,0.040120002,5991661568.0,64.242
 DBCORP,DBCORP.NS,D.B.Corp Limited,Publishing,Communication Services,12.565025,11.073763,,1.7574618,12.612,,,0.13826999,40469925888.0,74.507004
 DBEIL,DBEIL.NS,Deepak Builders & Engineers India Limited,Engineering & Construction,Industrials,8.421001,,,0.9345357,35.454,,,0.067,3997103360.0,82.699996
@@ -801,7 +801,7 @@ HBSL,HBSL.NS,HB Stockholdings Limited,Capital Markets,Financial Services,,,,0.47
 HCC,HCC.NS,Hindustan Construction Company Limited,Engineering & Construction,Industrials,19.673685,27.485294,,3.1443474,147.434,,,0.0452,48957857792.0,22.264
 HCG,HCG.NS,Healthcare Global Enterprises Limited,Medical Care Facilities,Healthcare,435.99997,63.09648,,8.967503,177.905,,,0.00765,82997092352.0,70.50999999999999
 HCL-INSYS,HCL-INSYS.NS,HCL Infosystems Limited,Electronics & Computer Distribution,Technology,,,,-1.3816851,,,,-1.1266,4227055360.0,63.158
-HCLTECH,HCLTECH.NS,HCL Technologies Limited,Information Technology Services,Technology,23.6968,19.56403,,5.263014,9.747,0.23188,0.12874,0.13024999,3886669889536.0,62.653000000000006
+HCLTECH,HCLTECH.NS,HCL Technologies Limited,Information Technology Services,Technology,23.6968,19.56403,,5.2812214,9.747,0.23188,0.12874,0.13024999,3886669889536.0,62.653000000000006
 HDBFS,HDBFS.NS,HDB Financial Services Limited,Credit Services,Financial Services,25.645277,18.316216,,3.0858557,468.269,,,0.27587,595705266176.0,74.484
 HDFCAMC,HDFCAMC.NS,HDFC Asset Management Company Limited,Asset Management,Financial Services,40.648106,34.146717,,15.019716,,,,0.62686,1163157307392.0,56.552
 HDFCBANK,HDFCBANK.NS,HDFC Bank Limited,Banks - Regional,Financial Services,20.367434,16.034876,,2.4840567,,0.14015001,0.01749,0.26187,14031561687040.0,0.15700001
@@ -830,9 +830,9 @@ HINDCOMPOS,HINDCOMPOS.NS,Hindustan Composites Limited,Auto Parts,Consumer Cyclic
 HINDCON,HINDCON.NS,Hindcon Chemicals Limited,Specialty Chemicals,Basic Materials,21.04,,,1.4496349,10.848,,,0.04938,1077050752.0,
 HINDCOPPER,HINDCOPPER.NS,Hindustan Copper Limited,Copper,Basic Materials,83.31625,27.358173,,18.557592,4.776,,,0.2493,550497353728.0,66.142
 HINDOILEXP,HINDOILEXP.NS,Hindustan Oil Exploration Company Limited,Oil & Gas E&P,Energy,16.475718,,,1.3025885,5.622,,,0.20712,17495787520.0,42.169996999999995
-HINDPETRO,,,,,,,,,,,,,,
-HINDUNILVR,,,,,,,,,,,,,,
-HINDWAREAP,,,,,,,,,,,,,,
+HINDPETRO,HINDPETRO.NS,Hindustan Petroleum Corporation Limited,Oil & Gas Refining & Marketing,Energy,5.9524794,6.394702,,1.6114676,110.909,,,0.03545,916878655488.0,54.991
+HINDUNILVR,HINDUNILVR.NS,Hindustan Unilever Limited,Household & Personal Products,Consumer Defensive,53.763065,46.999485,,11.16051,3.611,,,0.22292,5438918623232.0,62.264997
+HINDWAREAP,HINDWAREAP.NS,Hindware Home Innovation Limited,"Furnishings, Fixtures & Appliances",Consumer Cyclical,,15.908203,,2.5763645,119.294,,,-0.020079998,19484776448.0,56.58800000000001
 HINDZINC,,,,,,,,,,,,,,
 HIRECT,,,,,,,,,,,,,,
 HISARMETAL,,,,,,,,,,,,,,
@@ -1820,422 +1820,422 @@ SIGNPOST,,,,,,,,,,,,,,
 SIKKO,,,,,,,,,,,,,,
 SIL,,,,,,,,,,,,,,
 SILGO,,,,,,,,,,,,,,
-SILINV,,,,,,,,,,,,,,
+SILINV,SILINV.NS,SIL Investments Limited,Asset Management,Financial Services,10.605226,,,0.1628794,,,,0.64116997,4688138240.0,82.145
 SILLYMONKS,,,,,,,,,,,,,,
-SILVERTUC,,,,,,,,,,,,,,
+SILVERTUC,SILVERTUC.NS,Silver Touch Technologies Limited,Information Technology Services,Technology,55.566643,,,12.169863,33.247,,,0.09701,17658292224.0,81.706
 SIMBHALS,,,,,,,,,,,,,,
-SIMPLEXINF,,,,,,,,,,,,,,
-SINCLAIR,,,,,,,,,,,,,,
-SINDHUTRAD,,,,,,,,,,,,,,
-SINTERCOM,,,,,,,,,,,,,,
-SIRCA,,,,,,,,,,,,,,
-SIS,,,,,,,,,,,,,,
-SITINET,,,,,,,,,,,,,,
-SIYSIL,,,,,,,,,,,,,,
-SJS,,,,,,,,,,,,,,
-SJVN,,,,,,,,,,,,,,
-SKFINDIA,,,,,,,,,,,,,,
-SKFINDUS,,,,,,,,,,,,,,
-SKIPPER,,,,,,,,,,,,,,
-SKMEGGPROD,,,,,,,,,,,,,,
-SKYGOLD,,,,,,,,,,,,,,
-SMARTLINK,,,,,,,,,,,,,,
-SMARTWORKS,,,,,,,,,,,,,,
-SMCGLOBAL,,,,,,,,,,,,,,
-SMLMAH,,,,,,,,,,,,,,
-SMLT,,,,,,,,,,,,,,
-SMSPHARMA,,,,,,,,,,,,,,
-SNOWMAN,,,,,,,,,,,,,,
-SOBHA,,,,,,,,,,,,,,
-SOFTTECH,,,,,,,,,,,,,,
-SOLARA,,,,,,,,,,,,,,
-SOLARINDS,,,,,,,,,,,,,,
-SOLARWORLD,,,,,,,,,,,,,,
-SOLEX,,,,,,,,,,,,,,
-SOMANYCERA,,,,,,,,,,,,,,
-SOMATEX,,,,,,,,,,,,,,
-SOMICONVEY,,,,,,,,,,,,,,
-SONACOMS,,,,,,,,,,,,,,
-SONAMLTD,,,,,,,,,,,,,,
-SONATSOFTW,,,,,,,,,,,,,,
-SOTL,,,,,,,,,,,,,,
-SOUTHBANK,,,,,,,,,,,,,,
-SOUTHWEST,,,,,,,,,,,,,,
-SPAL,,,,,,,,,,,,,,
-SPANDANA,,,,,,,,,,,,,,
-SPARC,,,,,,,,,,,,,,
-SPCENET,,,,,,,,,,,,,,
-SPECIALITY,,,,,,,,,,,,,,
-SPECTRUM,,,,,,,,,,,,,,
-SPENCERS,,,,,,,,,,,,,,
-SPIC,,,,,,,,,,,,,,
-SPLIL,,,,,,,,,,,,,,
-SPLPETRO,,,,,,,,,,,,,,
-SPMLINFRA,,,,,,,,,,,,,,
-SPORTKING,,,,,,,,,,,,,,
-SRD,,,,,,,,,,,,,,
-SREEL,,,,,,,,,,,,,,
-SRF,,,,,,,,,,,,,,
-SRGHFL,,,,,,,,,,,,,,
-SRHHYPOLTD,,,,,,,,,,,,,,
-SRM,,,,,,,,,,,,,,
-SSDL,,,,,,,,,,,,,,
-SSWL,,,,,,,,,,,,,,
-STALL-RE,,,,,,,,,,,,,,
-STALLION,,,,,,,,,,,,,,
-STANLEY,,,,,,,,,,,,,,
-STAR,,,,,,,,,,,,,,
-STARCEMENT,,,,,,,,,,,,,,
-STARHEALTH,,,,,,,,,,,,,,
-STARPAPER,,,,,,,,,,,,,,
-STARTECK,,,,,,,,,,,,,,
-STCINDIA,,,,,,,,,,,,,,
-STEELCAS,,,,,,,,,,,,,,
-STEELCITY,,,,,,,,,,,,,,
-STEELXIND,,,,,,,,,,,,,,
-STEL,,,,,,,,,,,,,,
-STERTOOLS,,,,,,,,,,,,,,
-STLNETWORK,,,,,,,,,,,,,,
-STLTECH,,,,,,,,,,,,,,
-STOVEKRAFT,,,,,,,,,,,,,,
-STUDDS,,,,,,,,,,,,,,
-STYL,,,,,,,,,,,,,,
-STYLAMIND,,,,,,,,,,,,,,
-STYLEBAAZA,,,,,,,,,,,,,,
-STYRENIX,,,,,,,,,,,,,,
-SUBEXLTD,,,,,,,,,,,,,,
-SUBROS,,,,,,,,,,,,,,
-SUDARCOLOR,,,,,,,,,,,,,,
-SUDARSCHEM,,,,,,,,,,,,,,
-SUDEEPPHRM,,,,,,,,,,,,,,
-SUKHJITS,,,,,,,,,,,,,,
-SULA,,,,,,,,,,,,,,
-SUMEETINDS,,,,,,,,,,,,,,
-SUMICHEM,,,,,,,,,,,,,,
-SUMIT,,,,,,,,,,,,,,
-SUMMITSEC,,,,,,,,,,,,,,
-SUNCLAY,,,,,,,,,,,,,,
-SUNDARAM,,,,,,,,,,,,,,
-SUNDARMFIN,,,,,,,,,,,,,,
-SUNDRMBRAK,,,,,,,,,,,,,,
-SUNDRMFAST,,,,,,,,,,,,,,
-SUNDROP,,,,,,,,,,,,,,
-SUNFLAG,,,,,,,,,,,,,,
-SUNPHARMA,,,,,,,,,,,,,,
-SUNTECK,,,,,,,,,,,,,,
-SUNTV,,,,,,,,,,,,,,
-SUPERHOUSE,,,,,,,,,,,,,,
-SUPERSPIN,,,,,,,,,,,,,,
-SUPRAJIT,,,,,,,,,,,,,,
-SUPREME,,,,,,,,,,,,,,
-SUPREMEENG,,,,,,,,,,,,,,
-SUPREMEIND,,,,,,,,,,,,,,
-SUPREMEINF,,,,,,,,,,,,,,
-SUPRIYA,,,,,,,,,,,,,,
-SURAJEST,,,,,,,,,,,,,,
-SURAJLTD,,,,,,,,,,,,,,
-SURAKSHA,,,,,,,,,,,,,,
-SURANASOL,,,,,,,,,,,,,,
-SURANAT&P,,,,,,,,,,,,,,
-SURYALAXMI,,,,,,,,,,,,,,
-SURYAROSNI,,,,,,,,,,,,,,
-SURYODAY,,,,,,,,,,,,,,
-SUTLEJTEX,,,,,,,,,,,,,,
-SUVEN,,,,,,,,,,,,,,
-SUVIDHAA,,,,,,,,,,,,,,
-SUYOG,,,,,,,,,,,,,,
-SUZLON,,,,,,,,,,,,,,
-SVLL,,,,,,,,,,,,,,
-SVPGLOB,,,,,,,,,,,,,,
-SWANCORP,,,,,,,,,,,,,,
-SWARAJENG,,,,,,,,,,,,,,
-SWELECTES,,,,,,,,,,,,,,
-SWIGGY,,,,,,,,,,,,,,
-SWSOLAR,,,,,,,,,,,,,,
-SYMPHONY,,,,,,,,,,,,,,
-SYNCOMF,,,,,,,,,,,,,,
-SYNGENE,,,,,,,,,,,,,,
-SYRMA,,,,,,,,,,,,,,
-SYSTMTXC,,,,,,,,,,,,,,
-TAINWALCHM,,,,,,,,,,,,,,
-TAJGVK,,,,,,,,,,,,,,
-TAKE,,,,,,,,,,,,,,
-TALBROAUTO,,,,,,,,,,,,,,
-TANLA,,,,,,,,,,,,,,
-TARACHAND,,,,,,,,,,,,,,
-TARAPUR,,,,,,,,,,,,,,
-TARC,,,,,,,,,,,,,,
-TARIL,,,,,,,,,,,,,,
-TARMAT,,,,,,,,,,,,,,
-TARSONS,,,,,,,,,,,,,,
-TASTYBITE,,,,,,,,,,,,,,
-TATACAP,,,,,,,,,,,,,,
-TATACHEM,,,,,,,,,,,,,,
-TATACOMM,,,,,,,,,,,,,,
-TATACONSUM,,,,,,,,,,,,,,
-TATAELXSI,,,,,,,,,,,,,,
-TATAINVEST,,,,,,,,,,,,,,
-TATAPOWER,,,,,,,,,,,,,,
-TATASTEEL,,,,,,,,,,,,,,
-TATATECH,,,,,,,,,,,,,,
-TATVA,,,,,,,,,,,,,,
-TBOTEK,,,,,,,,,,,,,,
-TBZ,,,,,,,,,,,,,,
-TCI,,,,,,,,,,,,,,
-TCIEXP,,,,,,,,,,,,,,
-TCIFINANCE,,,,,,,,,,,,,,
-TCPLPACK,,,,,,,,,,,,,,
-TCS,,,,,,,,,,,,,,
-TDPOWERSYS,,,,,,,,,,,,,,
-TEAMGTY,,,,,,,,,,,,,,
-TEAMLEASE,,,,,,,,,,,,,,
-TECHM,,,,,,,,,,,,,,
-TECHNOE,,,,,,,,,,,,,,
-TECILCHEM,,,,,,,,,,,,,,
-TEGA,,,,,,,,,,,,,,
-TEJASNET,,,,,,,,,,,,,,
-TEMBO,,,,,,,,,,,,,,
-TENNIND,,,,,,,,,,,,,,
-TERASOFT,,,,,,,,,,,,,,
-TEXINFRA,,,,,,,,,,,,,,
-TEXMOPIPES,,,,,,,,,,,,,,
-TEXRAIL,,,,,,,,,,,,,,
-TFCILTD,,,,,,,,,,,,,,
-TFL,,,,,,,,,,,,,,
-TGBHOTELS,,,,,,,,,,,,,,
-THANGAMAYL,,,,,,,,,,,,,,
-THEINVEST,,,,,,,,,,,,,,
-THEJO,,,,,,,,,,,,,,
-THELEELA,,,,,,,,,,,,,,
-THEMISMED,,,,,,,,,,,,,,
-THERMAX,,,,,,,,,,,,,,
-THOMASCOOK,,,,,,,,,,,,,,
-THOMASCOTT,,,,,,,,,,,,,,
-THYROCARE,,,,,,,,,,,,,,
-TI,,,,,,,,,,,,,,
-TICL,,,,,,,,,,,,,,
-TIGERLOGS,,,,,,,,,,,,,,
-TIIL,,,,,,,,,,,,,,
-TIINDIA,,,,,,,,,,,,,,
-TIJARIA,,,,,,,,,,,,,,
-TIL,,,,,,,,,,,,,,
-TIMETECHNO,,,,,,,,,,,,,,
-TIMKEN,,,,,,,,,,,,,,
-TINNARUBR,,,,,,,,,,,,,,
-TIPSFILMS,,,,,,,,,,,,,,
-TIPSMUSIC,,,,,,,,,,,,,,
-TIRUMALCHM,,,,,,,,,,,,,,
-TIRUPATIFL,,,,,,,,,,,,,,
-TITAGARH,,,,,,,,,,,,,,
-TITAN,,,,,,,,,,,,,,
-TMB,,,,,,,,,,,,,,
-TMCV,,,,,,,,,,,,,,
-TMPV,,,,,,,,,,,,,,
-TNPETRO,,,,,,,,,,,,,,
-TNPL,,,,,,,,,,,,,,
-TNTELE,,,,,,,,,,,,,,
-TOKYOPLAST,,,,,,,,,,,,,,
-TOLINS,,,,,,,,,,,,,,
-TORNTPHARM,,,,,,,,,,,,,,
-TORNTPOWER,,,,,,,,,,,,,,
-TOTAL,,,,,,,,,,,,,,
-TOUCHWOOD,,,,,,,,,,,,,,
-TPHQ,,,,,,,,,,,,,,
-TPLPLASTEH,,,,,,,,,,,,,,
-TRACXN,,,,,,,,,,,,,,
-TRANSRAILL,,,,,,,,,,,,,,
-TRANSWORLD,,,,,,,,,,,,,,
-TRAVELFOOD,,,,,,,,,,,,,,
-TREEHOUSE,,,,,,,,,,,,,,
-TREJHARA,,,,,,,,,,,,,,
-TREL,,,,,,,,,,,,,,
-TRENT,,,,,,,,,,,,,,
-TRF,,,,,,,,,,,,,,
-TRIDENT,,,,,,,,,,,,,,
-TRIGYN,,,,,,,,,,,,,,
-TRITURBINE,,,,,,,,,,,,,,
-TRIVENI,,,,,,,,,,,,,,
-TRU,,,,,,,,,,,,,,
-TRUALT,,,,,,,,,,,,,,
-TSFINV,,,,,,,,,,,,,,
-TTKHLTCARE,,,,,,,,,,,,,,
-TTKPRESTIG,,,,,,,,,,,,,,
-TTL,,,,,,,,,,,,,,
-TTML,,,,,,,,,,,,,,
-TVSELECT,,,,,,,,,,,,,,
-TVSHLTD,,,,,,,,,,,,,,
-TVSMOTOR,,,,,,,,,,,,,,
-TVSSCS,,,,,,,,,,,,,,
-TVSSRICHAK,,,,,,,,,,,,,,
-TVTODAY,,,,,,,,,,,,,,
-TVVISION,,,,,,,,,,,,,,
-UBL,,,,,,,,,,,,,,
-UCAL,,,,,,,,,,,,,,
-UCOBANK,,,,,,,,,,,,,,
-UDS,,,,,,,,,,,,,,
-UEL,,,,,,,,,,,,,,
-UFBL,,,,,,,,,,,,,,
-UFLEX,,,,,,,,,,,,,,
-UFO,,,,,,,,,,,,,,
-UGARSUGAR,,,,,,,,,,,,,,
-UGROCAP,,,,,,,,,,,,,,
-UJJIVANSFB,,,,,,,,,,,,,,
-ULTRACEMCO,,,,,,,,,,,,,,
-UMAEXPORTS,,,,,,,,,,,,,,
-UMESLTD,,,,,,,,,,,,,,
-UMIYA-MRO,,,,,,,,,,,,,,
-UNICHEMLAB,,,,,,,,,,,,,,
-UNIDT,,,,,,,,,,,,,,
-UNIECOM,,,,,,,,,,,,,,
-UNIENTER,,,,,,,,,,,,,,
-UNIINFO,,,,,,,,,,,,,,
-UNIMECH,,,,,,,,,,,,,,
-UNIONBANK,,,,,,,,,,,,,,
-UNIPARTS,,,,,,,,,,,,,,
-UNITDSPR,,,,,,,,,,,,,,
-UNITECH,,,,,,,,,,,,,,
-UNITEDPOLY,,,,,,,,,,,,,,
-UNITEDTEA,,,,,,,,,,,,,,
-UNIVASTU,,,,,,,,,,,,,,
-UNIVCABLES,,,,,,,,,,,,,,
-UNIVPHOTO,,,,,,,,,,,,,,
-UNOMINDA,,,,,,,,,,,,,,
-UPL,,,,,,,,,,,,,,
-URAVIDEF,,,,,,,,,,,,,,
-URBANCO,,,,,,,,,,,,,,
-URJA,,,,,,,,,,,,,,
-USHAMART,,,,,,,,,,,,,,
-USK,,,,,,,,,,,,,,
-UTIAMC,,,,,,,,,,,,,,
-UTKARSHBNK,,,,,,,,,,,,,,
-UTLSOLAR,,,,,,,,,,,,,,
-UTTAMSUGAR,,,,,,,,,,,,,,
-UYFINCORP,,,,,,,,,,,,,,
-V2RETAIL,,,,,,,,,,,,,,
-VADILALIND,,,,,,,,,,,,,,
-VAIBHAVGBL,,,,,,,,,,,,,,
-VAISHALI,,,,,,,,,,,,,,
-VAKRANGEE,,,,,,,,,,,,,,
-VALIANTLAB,,,,,,,,,,,,,,
-VALIANTORG,,,,,,,,,,,,,,
-VARDHACRLC,,,,,,,,,,,,,,
-VARDMNPOLY,,,,,,,,,,,,,,
-VARROC,,,,,,,,,,,,,,
-VASCONEQ,,,,,,,,,,,,,,
-VASWANI,,,,,,,,,,,,,,
-VBL,,,,,,,,,,,,,,
-VCL,,,,,,,,,,,,,,
-VEDL,,,,,,,,,,,,,,
-VEEDOL,,,,,,,,,,,,,,
-VENKEYS,,,,,,,,,,,,,,
-VENTIVE,,,,,,,,,,,,,,
-VENUSPIPES,,,,,,,,,,,,,,
-VENUSREM,,,,,,,,,,,,,,
-VERANDA,,,,,,,,,,,,,,
-VERTOZ,,,,,,,,,,,,,,
-VESUVIUS,,,,,,,,,,,,,,
-VETO,,,,,,,,,,,,,,
-VGL,,,,,,,,,,,,,,
-VGUARD,,,,,,,,,,,,,,
-VHL,,,,,,,,,,,,,,
-VHLTD,,,,,,,,,,,,,,
-VIDHIING,,,,,,,,,,,,,,
-VIDYAWIRES,,,,,,,,,,,,,,
-VIJAYA,,,,,,,,,,,,,,
-VIJIFIN,,,,,,,,,,,,,,
-VIKASECO,,,,,,,,,,,,,,
-VIKASLIFE,,,,,,,,,,,,,,
-VIKRAMSOLR,,,,,,,,,,,,,,
-VIKRAN,,,,,,,,,,,,,,
-VIMTALABS,,,,,,,,,,,,,,
-VINATIORGA,,,,,,,,,,,,,,
-VINCOFE,,,,,,,,,,,,,,
-VINDHYATEL,,,,,,,,,,,,,,
-VINEETLAB,,,,,,,,,,,,,,
-VINNY,,,,,,,,,,,,,,
-VINYLINDIA,,,,,,,,,,,,,,
-VIPCLOTHNG,,,,,,,,,,,,,,
-VIPIND,,,,,,,,,,,,,,
-VIPULLTD,,,,,,,,,,,,,,
-VIRINCHI,,,,,,,,,,,,,,
-VISAKAIND,,,,,,,,,,,,,,
-VISASTEEL,,,,,,,,,,,,,,
-VISHNU,,,,,,,,,,,,,,
-VISHWARAJ,,,,,,,,,,,,,,
-VIVIDHA,,,,,,,,,,,,,,
-VIVIMEDLAB,,,,,,,,,,,,,,
-VIYASH,,,,,,,,,,,,,,
-VLEGOV,,,,,,,,,,,,,,
-VLSFINANCE,,,,,,,,,,,,,,
-VMART,,,,,,,,,,,,,,
-VMM,,,,,,,,,,,,,,
-VMSTMT,,,,,,,,,,,,,,
-VOLTAMP,,,,,,,,,,,,,,
-VOLTAS,,,,,,,,,,,,,,
-VPRPL,,,,,,,,,,,,,,
-VRAJ,,,,,,,,,,,,,,
-VRLLOG,,,,,,,,,,,,,,
-VSSL,,,,,,,,,,,,,,
-VSTIND,,,,,,,,,,,,,,
-VSTL,,,,,,,,,,,,,,
-VSTTILLERS,,,,,,,,,,,,,,
-VTL,,,,,,,,,,,,,,
-WAAREEENER,,,,,,,,,,,,,,
-WAAREEINDO,,,,,,,,,,,,,,
-WAAREERTL,,,,,,,,,,,,,,
-WABAG,,,,,,,,,,,,,,
-WAKEFIT,,,,,,,,,,,,,,
-WALCHANNAG,,,,,,,,,,,,,,
-WANBURY,,,,,,,,,,,,,,
-WCIL,,,,,,,,,,,,,,
-WEALTH,,,,,,,,,,,,,,
-WEBELSOLAR,,,,,,,,,,,,,,
-WEIZMANIND,,,,,,,,,,,,,,
-WEL,,,,,,,,,,,,,,
-WELCORP,,,,,,,,,,,,,,
-WELENT,,,,,,,,,,,,,,
-WELINV,,,,,,,,,,,,,,
-WELSPUNLIV,,,,,,,,,,,,,,
-WENDT,,,,,,,,,,,,,,
-WESTLIFE,,,,,,,,,,,,,,
-WEWIN,,,,,,,,,,,,,,
-WEWORK,,,,,,,,,,,,,,
-WHEELS,,,,,,,,,,,,,,
-WHIRLPOOL,,,,,,,,,,,,,,
-WILLAMAGOR,,,,,,,,,,,,,,
-WINDLAS,,,,,,,,,,,,,,
-WINDMACHIN,,,,,,,,,,,,,,
-WINSOME,,,,,,,,,,,,,,
-WIPL,,,,,,,,,,,,,,
-WIPRO,,,,,,,,,,,,,,
-WOCKPHARMA,,,,,,,,,,,,,,
-WONDERLA,,,,,,,,,,,,,,
-WORTHPERI,,,,,,,,,,,,,,
-WSI,,,,,,,,,,,,,,
-WSTCSTPAPR,,,,,,,,,,,,,,
-XCHANGING,,,,,,,,,,,,,,
-XELPMOC,,,,,,,,,,,,,,
-XPROINDIA,,,,,,,,,,,,,,
-XTGLOBAL,,,,,,,,,,,,,,
-YASHO,,,,,,,,,,,,,,
-YATHARTH,,,,,,,,,,,,,,
-YATRA,,,,,,,,,,,,,,
-YESBANK,,,,,,,,,,,,,,
-YUKEN,,,,,,,,,,,,,,
-ZAGGLE,,,,,,,,,,,,,,
-ZEEL,,,,,,,,,,,,,,
-ZEELEARN,,,,,,,,,,,,,,
-ZEEMEDIA,,,,,,,,,,,,,,
-ZENITHEXPO,,,,,,,,,,,,,,
-ZENITHSTL,,,,,,,,,,,,,,
-ZENSARTECH,,,,,,,,,,,,,,
-ZENTEC,,,,,,,,,,,,,,
-ZFCVINDIA,,,,,,,,,,,,,,
-ZIMLAB,,,,,,,,,,,,,,
-ZODIAC,,,,,,,,,,,,,,
-ZODIACLOTH,,,,,,,,,,,,,,
-ZOTA,,,,,,,,,,,,,,
-ZUARI,,,,,,,,,,,,,,
-ZUARIIND,,,,,,,,,,,,,,
-ZYDUSLIFE,,,,,,,,,,,,,,
-ZYDUSWELL,,,,,,,,,,,,,,
+SIMPLEXINF,SIMPLEXINF.NS,Simplex Infrastructures Limited,,,20.081158,,,1.7180835,,,,,16439176192.0,
+SINCLAIR,SINCLAIR.NS,Sinclairs Hotels Limited,,,27.696627,,,3.2424254,,,,,3790676736.0,
+SINDHUTRAD,SINDHUTRAD.NS,Sindhu Trade Links Limited,Conglomerates,Industrials,,,,3.5708263,20.434,-0.00677,-0.05488,-0.15796,39279702016.0,85.949
+SINTERCOM,SINTERCOM.NS,Sintercom India Limited,Auto Parts,Consumer Cyclical,247.05882,,,2.3196728,46.836,,,0.00975,2312337152.0,23.885
+SIRCA,SIRCA.NS,Sirca Paints India Limited,Specialty Chemicals,Basic Materials,41.48734,28.678125,,5.7872763,10.211,,,0.13374,26123634688.0,77.72099999999999
+SIS,SIS.NS,SIS LIMITED,Security & Protection Services,Industrials,79.99999,9.699346,,1.6631085,67.098,,,-0.0126,41918046208.0,73.26599999999999
+SITINET,SITINET.NS,Siti Networks Limited,Entertainment,Communication Services,,,,-0.033168904,,,,-0.18236999,362281472.0,10.894
+SIYSIL,SIYSIL.NS,Siyaram Silk Mills Limited,Textile Manufacturing,Consumer Cyclical,12.19496,4.8926926,,1.8521192,30.58,,,0.08356,25037633536.0,69.28999999999999
+SJS,SJS.NS,S.J.S. Enterprises Limited,,,37.87954,27.852379,,7.6431637,,,,,58721243136.0,
+SJVN,SJVN.NS,SJVN Limited,Utilities - Renewable,Utilities,45.914635,17.229624,,2.037834,202.556,,,0.17885,295913586688.0,81.848997
+SKFINDIA,SKFINDIA.NS,SKF India Limited,,,17.240509,33.758663,,3.0705793,,,,,84415324160.0,
+SKFINDUS,SKFINDUS.NS,SKF India (Industrial) Limited,Tools & Accessories,Industrials,,31.390154,,,,,,0.0,122907729920.0,0.0
+SKIPPER,SKIPPER.NS,Skipper Limited,Engineering & Construction,Industrials,23.479336,15.103174,,3.3567345,62.585,,,0.03536,42983911424.0,69.801
+SKMEGGPROD,SKMEGGPROD.NS,SKM Egg Products Export (India) Limited,Packaged Foods,Consumer Defensive,16.948227,,,2.7475638,50.68,,,0.1108,9308708864.0,64.969003
+SKYGOLD,SKYGOLD.NS,SKY GOLD AND DIAMONDS LIMITED,Luxury Goods,Consumer Cyclical,23.750822,16.163311,,5.330215,78.497,,,0.04212,55948193792.0,59.397
+SMARTLINK,SMARTLINK.NS,Smartlink Holdings Limited,Communication Equipment,Technology,12.39388,,,0.6248538,1.501,,,0.04127,1253590400.0,73.310995
+SMARTWORKS,SMARTWORKS.NS,Smartworks Coworking Spaces Limited,Real Estate Services,Real Estate,,67.47545,,9.986304,860.311,,,-0.008090001,49989660672.0,79.74
+SMCGLOBAL,SMCGLOBAL.NS,SMC Global Securities Limited,Capital Markets,Financial Services,20.084158,,,1.3528519,162.127,,,0.05409,17009291264.0,74.234
+SMLMAH,SMLMAH.NS,SML Mahindra Limited,Auto Manufacturers,Consumer Cyclical,44.442722,,,15.896408,57.155,,,0.05845,70573875200.0,78.34100000000001
+SMLT,SMLT.NS,Sarthak Metals Limited,Metal Fabrication,Industrials,25.758121,,,0.7939422,,0.03143,,0.021240002,981970688.0,72.126997
+SMSPHARMA,SMSPHARMA.NS,SMS Pharmaceuticals Limited,Drug Manufacturers - General,Healthcare,37.17066,,,4.5515094,44.465,,,0.099870004,34880700416.0,75.034
+SNOWMAN,SNOWMAN.NS,Snowman Logistics Limited,Integrated Freight & Logistics,Industrials,399.7,28.550001,,1.6837273,80.305,,,0.0027700001,6683497984.0,54.647999999999996
+SOBHA,SOBHA.NS,Sobha Limited,Real Estate - Development,Real Estate,113.663666,30.160563,,3.5124187,23.042,,,0.03205,161864073216.0,58.47299700000001
+SOFTTECH,SOFTTECH.NS,Softtech Engineers Limited,Software - Application,Technology,321.42105,,,2.482581,26.731,,,0.0219,4226696960.0,83.684
+SOLARA,SOLARA.NS,Solara Active Pharma Sciences Limited,Drug Manufacturers - Specialty & Generic,Healthcare,,15.0159235,,1.6081283,51.38,,,-0.01523,22712891392.0,48.714
+SOLARINDS,SOLARINDS.NS,Solar Industries India Limited,Specialty Chemicals,Basic Materials,82.64545,56.58294,,23.519382,16.425,,,0.16222,1203155763200.0,73.15
+SOLARWORLD,SOLARWORLD.NS,Solarworld Energy Solutions Limited,Solar,Technology,21.929262,,,2.0456524,27.204,,,0.08416,17733226496.0,77.893996
+SOLEX,SOLEX.NS,Solex Energy Limited,Solar,Technology,16.050676,,,5.6355047,155.692,,,0.05369,10503799808.0,
+SOMANYCERA,SOMANYCERA.NS,Somany Ceramics Limited,Building Products & Equipment,Industrials,25.707037,16.301268,,2.120049,37.969,,,0.023610001,16695481344.0,58.184999999999995
+SOMATEX,SOMATEX.NS,Soma Textiles & Industries Limited,Textile Manufacturing,Consumer Cyclical,77.56329,,,2.5264394,0.187,,,0.15264,4163535360.0,86.222
+SOMICONVEY,SOMICONVEY.NS,Somi Conveyor Beltings Limited,Specialty Industrial Machinery,Industrials,23.94273,,,1.6296362,19.262,,,0.04956,1289435520.0,75.751
+SONACOMS,SONACOMS.NS,Sona BLW Precision Forgings Limited,Auto Parts,Consumer Cyclical,54.0752,39.971813,,5.788855,3.604,,,0.15095,330884710400.0,28.015
+SONAMLTD,SONAMLTD.NS,SONAM LIMITED,"Furnishings, Fixtures & Appliances",Consumer Cyclical,28.930378,,,2.74584,30.114,,,0.04403,1829862656.0,
+SONATSOFTW,SONATSOFTW.NS,Sonata Software Limited,Information Technology Services,Technology,17.954117,14.713389,,4.474117,41.695,,,0.040939998,79263145984.0,43.265998
+SOTL,SOTL.NS,Savita Oil Technologies Limited,Specialty Chemicals,Basic Materials,17.88993,5.969203,,1.4365265,,,,0.0395,24849723392.0,69.342005
+SOUTHBANK,SOUTHBANK.NS,The South Indian Bank Limited,Banks - Regional,Financial Services,7.568738,6.5085015,,0.95483595,,0.13619,,0.27933002,105237667840.0,4.913
+SOUTHWEST,SOUTHWEST.NS,South West Pinnacle Exploration Limited,Oil & Gas Equipment & Services,Energy,18.554228,,,3.0668905,51.856,,,0.12474,5619273728.0,70.858
+SPAL,SPAL.NS,S. P. Apparels Limited,Apparel Manufacturing,Consumer Cyclical,16.394102,13.341818,,2.0495546,45.394,,,0.0699,18438623232.0,63.302
+SPANDANA,SPANDANA.NS,Spandana Sphoorty Financial Limited,Credit Services,Financial Services,,9.095281,,0.8719868,147.688,,,0.0,22650906624.0,59.307
+SPARC,SPARC.NS,Sun Pharma Advanced Research Company Limited,Drug Manufacturers - Specialty & Generic,Healthcare,,2.3323104,,-12.152935,,,,0.0,41931440128.0,72.960997
+SPCENET,SPCENET.NS,Spacenet Enterprises India Limited,Capital Markets,Financial Services,21.583334,,,1.9044117,0.597,,,0.084960006,2925020160.0,
+SPECIALITY,SPECIALITY.NS,Speciality Restaurants Limited,Restaurants,Consumer Cyclical,23.458525,,,1.4640704,42.426,,,0.045100003,4937768960.0,70.054
+SPECTRUM,SPECTRUM.NS,Spectrum Electrical Industries Limited,Electrical Equipment & Parts,Industrials,52.348724,,,9.590839,76.093,,,0.07956,20663699456.0,86.825997
+SPENCERS,SPENCERS.NS,Spencer's Retail Limited,Department Stores,Consumer Cyclical,,,,-0.39496753,,,,-0.142,3114023936.0,62.037
+SPIC,SPIC.NS,Southern Petrochemicals Industries Corporation  Limited,Agricultural Inputs,Basic Materials,7.1395345,,,1.1048349,34.524,,,0.06443,14379043840.0,0.0
+SPLIL,SPLIL.NS,SPL Industries Limited,Apparel Manufacturing,Consumer Cyclical,21.489052,,,0.39777872,,,,0.07843,853760128.0,74.851
+SPLPETRO,SPLPETRO.NS,Supreme Petrochem Limited,Specialty Chemicals,Basic Materials,46.51441,29.748316,,5.6042876,6.558,,,0.050180003,124464570368.0,66.279
+SPMLINFRA,SPMLINFRA.NS,SPML Infra Limited,Engineering & Construction,Industrials,24.439123,,,1.5934105,43.718,,,0.07796,13836646400.0,62.503
+SPORTKING,SPORTKING.NS,Sportking India Limited,Textile Manufacturing,Consumer Cyclical,12.734123,,,1.4261605,48.486,,,0.04759,15046422528.0,79.053
+SRD,SRD.NS,Shankar Lal Rampal Dye-Chem Limited,Specialty Chemicals,Basic Materials,,,,3.0876517,,,,0.02592,3384482304.0,79.48000400000001
+SREEL,SREEL.NS,Sreeleathers Limited,Footwear & Accessories,Consumer Cyclical,19.197718,25.95887,,0.96466345,0.495,,,0.100530006,4692343808.0,75.319
+SRF,SRF.NS,SRF Limited,Conglomerates,Industrials,44.840755,33.32752,,6.0076857,34.719,,,0.1149,797116071936.0,50.983000000000004
+SRGHFL,SRGHFL.NS,SRG Housing Finance Limited,Mortgage Finance,Financial Services,13.927635,,,1.4918332,249.831,,,0.26159,4170408192.0,74.957
+SRHHYPOLTD,SRHHYPOLTD.NS,Sree Rayalaseema Hi-Strength Hypo Limited,Chemicals,Basic Materials,8.93619,25.597769,,0.8225664,1.283,,,0.14253001,8269152256.0,68.595004
+SRM,SRM.NS,SRM Contractors Limited,Engineering & Construction,Industrials,12.269242,,,3.3135443,19.915,,,0.100080006,9913763840.0,75.538003
+SSDL,SSDL.NS,Saraswati Saree Depot Limited,Apparel Retail,Consumer Cyclical,8.089888,,,1.3618596,3.465,,,0.042740002,2566067200.0,74.983
+SSWL,SSWL.NS,Steel Strips Wheels Limited,Auto Parts,Consumer Cyclical,18.35216,14.536842,,2.028943,52.775,,,0.03845,34757484544.0,77.542996
+STALL-RE,STALL-RE.NS,Stallion India Fluorochemicals Ltd-RE,,,,,,,,,,,,
+STALLION,STALLION.NS,Stallion India Fluorochemicals Limited,Specialty Chemicals,Basic Materials,32.05437,,,3.4298794,0.366,,,0.09781,12650872832.0,76.36500000000001
+STANLEY,STANLEY.NS,Stanley Lifestyles Limited,"Furnishings, Fixtures & Appliances",Consumer Cyclical,41.34048,,,2.1254745,69.949,,,0.054330003,9918729216.0,59.58599999999999
+STAR,STAR.NS,Strides Pharma Science Limited,Drug Manufacturers - Specialty & Generic,Healthcare,15.675018,12.407029,,2.907906,65.787,,,0.10823,80157999104.0,30.618997999999998
+STARCEMENT,STARCEMENT.NS,Star Cement Limited,Building Materials,Basic Materials,23.407894,20.03651,,2.8682368,21.388,,,0.10086001,86284435456.0,87.663
+STARHEALTH,STARHEALTH.NS,Star Health and Allied Insurance Company Limited,Insurance - Diversified,Financial Services,59.887714,28.76902,,3.5062413,6.183,,,0.025840001,266780213248.0,63.14999999999999
+STARPAPER,STARPAPER.NS,Star Paper Mills Limited,Paper & Paper Products,Basic Materials,5.767386,3.4316292,,0.3210998,0.64,,,0.09493,2266714880.0,63.77
+STARTECK,STARTECK.NS,Starteck Finance Limited,Credit Services,Financial Services,13.528528,,,1.053095,108.108,,,0.66617996,2704101120.0,75.774
+STCINDIA,STCINDIA.NS,The State Trading Corporation of India Limited,Conglomerates,Industrials,1.1024034,,,-0.17766792,,,,0.0,7072799744.0,90.075
+STEELCAS,STEELCAS.NS,Steelcast Limited,Steel,Basic Materials,26.464125,,,6.6480794,,,,0.2086,23933616128.0,56.909
+STEELCITY,STEELCITY.NS,Steel City Securities Limited,Capital Markets,Financial Services,7.77936,,,0.9893977,8.717,,,0.22002001,1320964480.0,
+STEELXIND,STEELXIND.NS,STEEL EXCHANGE INDIA LIMITED,Steel,Basic Materials,48.1875,,,1.085304,50.244,,,0.018229999,9616069632.0,61.627995999999996
+STEL,STEL.NS,Stel Holdings Limited,Asset Management,Financial Services,30.214552,,,0.48331934,,,,0.41662997,8966557696.0,32.992
+STERTOOLS,STERTOOLS.NS,Sterling Tools Limited,Tools & Accessories,Industrials,23.416088,,,1.6131461,31.577,,,0.04537,8570015232.0,74.911004
+STLNETWORK,STLNETWORK.NS,STL Networks Limited,Telecom Services,Communication Services,,,,1.1992217,95.632,,,-0.07819,10257192960.0,44.153
+STLTECH,STLTECH.NS,Sterlite Technologies Limited,Communication Equipment,Technology,2665.6667,26.006504,,3.7999525,93.525,,,-0.00963,78067367936.0,45.459998
+STOVEKRAFT,STOVEKRAFT.NS,Stove Kraft Limited,"Furnishings, Fixtures & Appliances",Consumer Cyclical,44.46065,26.782957,,3.3632078,52.576,,,0.02483,16648015872.0,60.338
+STUDDS,STUDDS.NS,Studds Accessories Limited,Auto Parts,Consumer Cyclical,24.997587,21.217215,,4.241635,1.813,,,0.13119,20373256192.0,63.363
+STYL,STYL.NS,Seshaasai Technologies Limited,Software - Infrastructure,Technology,18.049635,,,2.8891563,26.355,,,0.15759,40011345920.0,85.872
+STYLAMIND,STYLAMIND.NS,Stylam Industries Limited,"Furnishings, Fixtures & Appliances",Consumer Cyclical,26.665863,21.564322,,5.1696305,,,,0.12703,37614522368.0,53.225
+STYLEBAAZA,STYLEBAAZA.NS,Baazar Style Retail Limited,Apparel Retail,Consumer Cyclical,37.61042,37.738636,,5.425761,190.823,,,0.03841,24780423168.0,60.511
+STYRENIX,STYRENIX.NS,Styrenix Performance Materials Limited,Chemicals,Basic Materials,20.703209,16.54499,,2.7512238,44.082,,,0.046609998,34295195648.0,48.863997999999995
+SUBEXLTD,SUBEXLTD.NS,Subex Limited,Software - Application,Technology,493.5,,,1.7493795,9.203,,,0.00361,5476421632.0,1.4149999
+SUBROS,SUBROS.NS,Subros Limited,Auto Parts,Consumer Cyclical,32.26343,24.758463,,4.534951,6.954,,,0.044970002,52491948032.0,74.60900000000001
+SUDARCOLOR,SUDARCOLOR.NS,Sudarshan Colorants India Limited,Specialty Chemicals,Basic Materials,19.720242,,,1.4922152,4.325,,,0.05323,8297971200.0,73.491997
+SUDARSCHEM,SUDARSCHEM.NS,Sudarshan Chemical Industries Limited,Specialty Chemicals,Basic Materials,,28.212198,,1.9983026,64.493,,,-0.0072399997,70896173056.0,40.442002
+SUDEEPPHRM,SUDEEPPHRM.NS,Sudeep Pharma Limited,Drug Manufacturers - Specialty & Generic,Healthcare,44.65077,38.654068,,9.998345,19.321,,,0.27241,75093893120.0,85.611
+SUKHJITS,SUKHJITS.NS,Sukhjit Starch & Chemicals Limited,Specialty Chemicals,Basic Materials,34.997948,,,1.0275184,74.457,,,0.010930001,5336162304.0,67.54400000000001
+SULA,SULA.NS,Sula Vineyards Limited,Beverages - Wineries & Distilleries,Consumer Defensive,50.184875,20.148449,,2.6850507,70.713,,,0.055040002,15135141888.0,27.737000000000002
+SUMEETINDS,SUMEETINDS.NS,Sumeet Industries Limited,Textile Manufacturing,Consumer Cyclical,0.47380134,,,0.30908105,48.264,,,0.092,12326547456.0,91.79
+SUMICHEM,SUMICHEM.NS,Sumitomo Chemical India Limited,Agricultural Inputs,Basic Materials,38.166042,31.053864,,6.3537555,1.82,,,0.16429001,203077435392.0,75.481004
+SUMIT,SUMIT.NS,Sumit Woods Limited,Real Estate - Development,Real Estate,21.794392,,,1.4035088,32.611,,,0.09591,2111334528.0,
+SUMMITSEC,SUMMITSEC.NS,Summit Securities Limited,Capital Markets,Financial Services,15.551721,,,0.17140566,,,,0.7447,19159879680.0,6.115
+SUNCLAY,SUNCLAY.NS,Sundaram Clayton Limited,Metal Fabrication,Industrials,,,,3.415157,186.6,,,-0.014450001,29943687168.0,63.50599999999999
+SUNDARAM,SUNDARAM.NS,Sundaram Multi Pap Limited,Paper & Paper Products,Basic Materials,,,,0.9757576,30.884,,,0.00871,762943232.0,35.346
+SUNDARMFIN,SUNDARMFIN.NS,Sundaram Finance Limited,Credit Services,Financial Services,27.70021,27.303726,,3.7719631,377.039,,,0.46789002,570683097088.0,0.0
+SUNDRMBRAK,SUNDRMBRAK.NS,Sundaram Brake Linings Limited,Auto Parts,Consumer Cyclical,,,,2.5945492,40.966,,,-0.01018,2498463488.0,66.103
+SUNDRMFAST,SUNDRMFAST.NS,Sundram Fasteners Limited,Auto Parts,Consumer Cyclical,34.724754,27.167818,,4.743962,18.193,,,0.09047,192193921024.0,49.580999999999996
+SUNDROP,SUNDROP.NS,Sundrop Brands Limited,Packaged Foods,Consumer Defensive,,114.887924,,1.7374492,0.931,,,-0.070760004,25119295488.0,78.143
+SUNFLAG,SUNFLAG.NS,Sunflag Iron And Steel Company Limited,Steel,Basic Materials,20.92406,,,0.5166718,6.787,,,0.05529,44195217408.0,76.952004
+SUNPHARMA,SUNPHARMA.NS,Sun Pharmaceutical Industries Limited,Drug Manufacturers - Specialty & Generic,Healthcare,37.882248,30.373535,,5.314644,6.675,,,0.19214001,4137413246976.0,55.615
+SUNTECK,SUNTECK.NS,Sunteck Realty Limited,Real Estate - Development,Real Estate,31.35736,19.174677,,1.7975049,15.744,,,0.19277,60043706368.0,63.02799999999999
+SUNTV,SUNTV.NS,Sun TV Network Limited,Broadcasting,Communication Services,14.598003,12.565071,,1.8641751,1.183,,,0.35666,230401572864.0,78.469
+SUPERHOUSE,SUPERHOUSE.NS,Superhouse Limited,Footwear & Accessories,Consumer Cyclical,31.444017,,,0.37979406,39.038,,,0.0090499995,1798321152.0,69.315004
+SUPERSPIN,SUPERSPIN.NS,Super Spinning Mills Limited,Textile Manufacturing,Consumer Cyclical,,,,0.64120436,37.26,,,-2.24247,386580224.0,45.126
+SUPRAJIT,SUPRAJIT.NS,Suprajit Engineering Limited,Auto Parts,Consumer Cyclical,40.965343,21.315113,,4.165576,67.961,,,0.037920002,56756490240.0,50.361997
+SUPREME,SUPREME.NS,Supreme Holdings & Hospitality (India) Limited,Real Estate - Development,Real Estate,77.21333,,,0.40381572,1.06,,,-0.70695996,2247056128.0,62.327
+SUPREMEENG,SUPREMEENG.NS,Supreme Engineering Limited,Steel,Basic Materials,,,,-0.25021085,,,,-0.37842,222455504.0,
+SUPREMEIND,SUPREMEIND.NS,Supreme Industries Limited,Building Products & Equipment,Industrials,60.975723,43.48444,,8.698944,5.629,,,0.07599,497944592384.0,49.221
+SUPREMEINF,SUPREMEINF.NS,Supreme Infrastructure India Limited,Engineering & Construction,Industrials,0.12590308,,,1.4461653,421.539,,,74.50303,8052269056.0,62.716997
+SUPRIYA,SUPRIYA.NS,Supriya Lifescience Limited,Biotechnology,Healthcare,29.41215,22.119087,,5.040183,0.484,,,0.25191998,54563315712.0,70.839995
+SURAJEST,SURAJEST.NS,Suraj Estate Developers Limited,Real Estate - Development,Real Estate,11.4013605,11.467369,,1.05367,57.442,,,0.16466999,10446456832.0,71.999
+SURAJLTD,SURAJLTD.NS,Suraj Limited,Steel,Basic Materials,,,,3.0826643,32.135,,,-0.00438,4187014912.0,82.822996
+SURAKSHA,SURAKSHA.NS,Suraksha Diagnostic Limited,Diagnostics & Research,Healthcare,45.064106,31.244446,,6.340045,51.3,,,0.11321,14645110784.0,61.894000000000005
+SURANASOL,SURANASOL.NS,Surana Solar Limited,Solar,Technology,573.75006,,,1.9854659,0.246,,,0.0223,1129291520.0,45.708
+SURANAT&P,SURANAT&P.NS,Surana Telecom and Power Limited,Utilities - Independent Power Producers,Utilities,9.910052,,,2.0941412,3.738,,,0.62668,2542784256.0,73.926
+SURYALAXMI,SURYALAXMI.NS,Suryalakshmi Cotton Mills Limited,Textile Manufacturing,Consumer Cyclical,21.724264,,,0.4097099,96.321,,,0.00638,1126698368.0,72.012
+SURYAROSNI,SURYAROSNI.NS,Surya Roshni Limited,Steel,Basic Materials,15.215607,11.227273,,1.9284655,4.928,,,0.04222,48373194752.0,68.714
+SURYODAY,SURYODAY.NS,Suryoday Small Finance Bank Limited,Banks - Regional,Financial Services,18.989113,4.7509727,,0.6395014,,0.03432,0.00442,0.061139997,12977987584.0,35.071000000000005
+SUTLEJTEX,SUTLEJTEX.NS,Sutlej Textiles and Industries Limited,Textile Manufacturing,Consumer Cyclical,,4.6072464,,0.6183742,97.692,,,-0.031519998,5277704704.0,81.587
+SUVEN,SUVEN.NS,Suven Life Sciences Limited,Drug Manufacturers - Specialty & Generic,Healthcare,,7.8077517,,11.932707,,,,0.0,35043282944.0,67.48100500000001
+SUVIDHAA,SUVIDHAA.NS,Suvidhaa Infoserve Limited,Information Technology Services,Technology,,,,1.880503,3.774,,,0.0,636207616.0,59.681
+SUYOG,SUYOG.NS,Suyog Telematics Limited,Telecom Services,Communication Services,28.984793,,,1.6666024,62.308,,,0.16117,7593865216.0,61.641999999999996
+SUZLON,SUZLON.NS,Suzlon Energy Limited,Specialty Industrial Machinery,Industrials,18.838984,22.234335,,7.782251,5.051,,,0.21564,609757822976.0,18.701999999999998
+SVLL,SVLL.NS,Shree Vasu Logistics Limited,Trucking,Industrials,139.00523,,,14.052452,570.803,,,0.01422,6103154688.0,
+SVPGLOB,SVPGLOB.NS,SVP GLOBAL TEXTILES LIMITED,Textile Manufacturing,Consumer Cyclical,,,,-0.03206222,,,,0.0,398777888.0,54.530996
+SWANCORP,SWANCORP.NS,SWAN CORP LIMITED,Conglomerates,Industrials,,,,1.1014471,28.231,,,-0.00282,127185133568.0,55.616003000000006
+SWARAJENG,SWARAJENG.NS,Swaraj Engines Limited,Auto Parts,Consumer Cyclical,23.094063,21.005022,,11.018134,0.574,,,0.097720005,43301949440.0,57.421
+SWELECTES,SWELECTES.NS,Swelect Energy Systems Limited,Solar,Technology,23.52853,,,0.8912887,72.499,,,0.07991,8520849920.0,62.259995999999994
+SWIGGY,SWIGGY.NS,Swiggy Limited,Internet Retail,Consumer Cyclical,,-40.907543,,7.67444,25.426,,,-0.21038,840742010880.0,42.644999999999996
+SWSOLAR,SWSOLAR.NS,Sterling and Wilson Renewable Energy Limited,Solar,Technology,,15.712976,,10.220964,266.51,,,-0.047849998,48097099776.0,45.742
+SYMPHONY,SYMPHONY.NS,Symphony Limited,"Furnishings, Fixtures & Appliances",Consumer Cyclical,33.668293,22.172459,,7.290687,0.639,,,0.12329,56945758208.0,75.882006
+SYNCOMF,SYNCOMF.NS,Syncom Formulations (India) Limited,Drug Manufacturers - Specialty & Generic,Healthcare,20.184616,,,3.196881,0.184,,,0.13719,12341448704.0,50.568999999999996
+SYNGENE,SYNGENE.NS,Syngene International Limited,Diagnostics & Research,Healthcare,50.76835,38.70249,,3.7566934,12.283,,,0.09465,177855512576.0,53.08800299999999
+SYRMA,SYRMA.NS,Syrma SGS Technology Limited,Electronic Components,Technology,54.334206,41.077675,,5.51854,11.483,,,0.06594,160405209088.0,60.133
+SYSTMTXC,SYSTMTXC.NS,Systematix Corporate Services Limited,Capital Markets,Financial Services,37.333336,,,3.3148706,6.278,,,0.16258,10720948224.0,85.087997
+TAINWALCHM,TAINWALCHM.NS,Tainwala Chemical and Plastic (I) Limited,Specialty Chemicals,Basic Materials,16.42467,,,1.0146354,,,,0.48729,1745611264.0,71.438
+TAJGVK,TAJGVK.NS,Taj GVK Hotels & Resorts Limited,Lodging,Consumer Cyclical,17.60181,120.72414,,3.1801543,11.957,,,0.2613,21951793152.0,72.40100000000001
+TAKE,TAKE.NS,Take Solutions Limited,Biotechnology,Healthcare,314.8,2.6204216,,26.952055,,,,0.0,6985443840.0,12.118
+TALBROAUTO,TALBROAUTO.NS,Talbros Automotive Components Limited,Auto Parts,Consumer Cyclical,17.001867,,,2.4753418,12.625,,,0.117860004,16854871040.0,63.036
+TANLA,TANLA.NS,Tanla Platforms Limited,Software - Application,Technology,12.345024,10.358556,,2.6617541,2.572,,,0.11541,60013416448.0,55.694
+TARACHAND,TARACHAND.NS,Tara Chand InfraLogistic Solutions Limited,Farm & Heavy Construction Machinery,Industrials,18.961987,,,3.7707872,96.243,,,0.09754,5111794176.0,
+TARAPUR,TARAPUR.NS,Tarapur Transformers Limited,Specialty Industrial Machinery,Industrials,27.626263,,,198.18842,3604.419,,,0.0,537032768.0,37.451
+TARC,TARC.NS,TARC Limited,Real Estate - Development,Real Estate,,78.47,,4.314502,181.338,,,-0.65393996,46312415232.0,66.79399599999999
+TARIL,TARIL.NS,Transformers And Rectifiers (India) Limited,Electrical Equipment & Parts,Industrials,34.951004,26.82564,,7.0015836,26.723,,,0.11209,94210039808.0,64.406997
+TARMAT,TARMAT.NS,Tarmat Limited,Engineering & Construction,Industrials,39.9854,,,0.7496716,6.468,,,0.03421,1375816320.0,77.365994
+TARSONS,TARSONS.NS,Tarsons Products Limited,Medical Instruments & Supplies,Healthcare,51.044388,15.038462,,1.671626,63.182,,,0.04911,10403836928.0,78.071
+TASTYBITE,TASTYBITE.NS,Tasty Bite Eatables Limited,Packaged Foods,Consumer Defensive,62.892277,,,6.1143675,20.737,,,0.06058,19490052096.0,80.372
+TATACAP,TATACAP.NS,Tata Capital Limited,Asset Management,Financial Services,33.109406,21.486986,,3.821868,567.967,,,0.37840998,1454753185792.0,85.981005
+TATACHEM,TATACHEM.NS,Tata Chemicals Limited,Chemicals,Basic Materials,112.41758,22.376179,,0.8167348,32.125,,,0.01228,182430957568.0,38.723
+TATACOMM,TATACOMM.NS,Tata Communications Limited,Telecom Services,Communication Services,31.154413,25.250044,,16.88811,467.533,,,0.07338,480709476352.0,60.483
+TATACONSUM,TATACONSUM.NS,TATA CONSUMER PRODUCTS LIMITED,Packaged Foods,Consumer Defensive,78.12162,56.161816,,5.628386,11.869,,,0.07542,1144126832640.0,34.394002
+TATAELXSI,TATAELXSI.NS,Tata Elxsi Limited,Software - Application,Technology,52.084896,35.455166,,11.200989,6.257,,,0.15675001,302859747328.0,44.908002
+TATAINVEST,TATAINVEST.NS,Tata Investment Corporation Limited,Capital Markets,Financial Services,87.72952,,,1.1247572,,,,1.07847,357759320064.0,73.817
+TATAPOWER,TATAPOWER.NS,Tata Power Company Limited,Utilities - Independent Power Producers,Utilities,31.844988,21.933044,,3.1903849,156.16,,,0.058709998,1207838310400.0,47.243
+TATASTEEL,TATASTEEL.NS,Tata Steel Limited,Steel,Basic Materials,0.32966268,11.974713,,2.73363,99.699,,,0.04073,2598634258432.0,35.527
+TATATECH,TATATECH.NS,Tata Technologies Limited,Information Technology Services,Technology,46.495792,30.981125,,6.911966,6.918,,,0.1018,246620782592.0,60.282004
+TATVA,TATVA.NS,Tatva Chintan Pharma Chem Limited,Specialty Chemicals,Basic Materials,85.4975,41.56845,,3.7031298,11.004,,,0.06832,27940691968.0,74.157995
+TBOTEK,TBOTEK.NS,TBO Tek Limited,Travel Services,Consumer Cyclical,60.23947,35.820423,,10.475017,51.855,,,0.10528,144720052224.0,67.99400399999999
+TBZ,TBZ.NS,Tribhovandas Bhimji Zaveri Limited,Luxury Goods,Consumer Cyclical,7.131481,51.86532,,1.4754224,118.113,,,0.04966,10292165632.0,78.050005
+TCI,TCI.NS,Transport Corporation of India Limited,Integrated Freight & Logistics,Industrials,17.762705,15.37147,,3.3169599,10.416,,,0.09364,79374065664.0,71.38799999999999
+TCIEXP,TCIEXP.NS,TCI Express Limited,Integrated Freight & Logistics,Industrials,25.911377,18.092505,,2.6980615,1.735,,,0.06967,21791252480.0,72.06700000000001
+TCIFINANCE,TCIFINANCE.NS,TCI Finance Limited,Credit Services,Financial Services,,,,-0.26775458,,,,0.0,205804736.0,24.722
+TCPLPACK,TCPLPACK.NS,TCPL Packaging Limited,Packaging & Containers,Consumer Cyclical,22.522514,,,3.8426497,103.305,,,0.06415,25659058176.0,69.516
+TCS,TCS.NS,Tata Consultancy Services Limited,Information Technology Services,Technology,20.366972,17.4769,,8.562222,9.444,0.42635,0.22512,0.18295999,9718905962496.0,71.789
+TDPOWERSYS,TDPOWERSYS.NS,TD Power Systems Limited,Specialty Industrial Machinery,Industrials,62.90449,48.226776,,14.352273,3.717,,,0.13596,137867395072.0,28.145999999999997
+TEAMGTY,TEAMGTY.NS,Team India Guaranty Limited,Asset Management,Financial Services,89.359436,,,4.638147,,,,0.41388,2287345408.0,76.60299499999999
+TEAMLEASE,TEAMLEASE.NS,Teamlease Services Limited,Staffing & Employment Services,Industrials,16.806572,14.131531,,2.2881327,13.1,,,0.011080001,21950871552.0,31.118000000000002
+TECHM,TECHM.NS,Tech Mahindra Limited,Information Technology Services,Technology,27.931366,19.220854,,4.6938934,6.992,,,0.08387999,1290095689728.0,36.617002
+TECHNOE,TECHNOE.NS,Techno Electric & Engineering Company Limited,Engineering & Construction,Industrials,28.326733,20.29078,,3.4193652,1.573,,,0.16158001,133093236736.0,57.004
+TECILCHEM,TECILCHEM.NS,TECIL Chemicals and Hydro Power Limited,Shell Companies,Financial Services,,,,,,,,0.0,287235744.0,55.901999999999994
+TEGA,TEGA.NS,Tega Industries Limited,Specialty Industrial Machinery,Industrials,54.353176,35.6389,,7.373854,20.696,,,0.118669994,122788708352.0,67.207
+TEJASNET,TEJASNET.NS,Tejas Networks Limited,Communication Equipment,Technology,,,,1.7385591,129.357,,,-0.28734,57950797824.0,2.3510001999999997
+TEMBO,TEMBO.NS,Tembo Global Industries Limited,Metal Fabrication,Industrials,12.819023,,,3.3296576,98.882,,,0.077659994,8359219200.0,
+TENNIND,TENNIND.NS,Tenneco Clean Air India Limited,Auto Parts,Consumer Cyclical,38.62334,32.258762,,24.308397,2.447,,,0.11146,,0.0
+TERASOFT,TERASOFT.NS,Tera Software Limited,Information Technology Services,Technology,24.159664,,,3.766258,21.66,,,0.106000006,5036029440.0,57.147000000000006
+TEXINFRA,TEXINFRA.NS,Texmaco Infrastructure & Holdings Limited,Real Estate Services,Real Estate,105.77528,,,0.8296466,2.014,,,0.69698995,12005524480.0,68.586
+TEXMOPIPES,TEXMOPIPES.NS,Texmo Pipes and Products Limited,Building Products & Equipment,Industrials,7.1539636,,,0.6705818,28.688,,,0.04893,1370121344.0,45.616
+TEXRAIL,TEXRAIL.NS,Texmaco Rail & Engineering Limited,Railroads,Industrials,25.160633,15.234246,,1.5490584,31.207,,,0.038900003,45257293824.0,48.531
+TFCILTD,TFCILTD.NS,Tourism Finance Corporation of India Limited,Credit Services,Financial Services,27.741444,6.251928,,2.690067,82.375,,,0.6938,33778819072.0,45.946
+TFL,TFL.NS,Transwarranty Finance Limited,Mortgage Finance,Financial Services,,,,2.4090056,101.481,,,-0.57068,707691904.0,66.60000000000001
+TGBHOTELS,TGBHOTELS.NS,TGB Banquets And Hotels Limited,Lodging,Consumer Cyclical,14.119403,,,0.3645472,24.265,,,0.04889,277049344.0,45.458999999999996
+THANGAMAYL,THANGAMAYL.NS,Thangamayil Jewellery Limited,Luxury Goods,Consumer Cyclical,45.873856,30.33779,,9.472547,96.321,,,0.034140002,110546313216.0,62.900999999999996
+THEINVEST,THEINVEST.NS,The Investment Trust Of India Limited,Capital Markets,Financial Services,17.119719,,,0.6983826,66.682,,,0.106979996,5114701824.0,88.413
+THEJO,THEJO.NS,Thejo Engineering Limited,Specialty Industrial Machinery,Industrials,38.171684,,,5.7537513,11.289,,,0.080520004,18568206336.0,0.0
+THELEELA,THELEELA.NS,Leela Palaces Hotels & Resorts Limited,Lodging,Consumer Cyclical,37.44196,30.445961,,2.2547455,27.671,,,0.23407,145421959168.0,75.907
+THEMISMED,THEMISMED.NS,Themis Medicare Limited,Drug Manufacturers - Specialty & Generic,Healthcare,,,,2.210539,25.148,,,-0.05159,8349339648.0,74.889
+THERMAX,THERMAX.NS,Thermax Limited,Conglomerates,Industrials,52.08726,43.341084,,7.028851,35.784,,,0.066,355045343232.0,73.678
+THOMASCOOK,THOMASCOOK.NS,Thomas Cook  (India)  Limited,Travel Services,Consumer Cyclical,21.079847,16.928244,,2.1954696,21.708,,,0.028450001,51653890048.0,65.137
+THOMASCOTT,THOMASCOTT.NS,Thomas Scott (India) Limited,Textile Manufacturing,Consumer Cyclical,23.866516,,,3.7261043,21.124,,,0.08331,4707683840.0,73.521006
+THYROCARE,THYROCARE.NS,Thyrocare Technologies Limited,Diagnostics & Research,Healthcare,45.86108,33.56723,,11.886978,4.621,,,0.17353001,63577141248.0,61.068999999999996
+TI,TI.NS,Tilaknagar Industries Limited,Beverages - Wineries & Distilleries,Consumer Defensive,78.80245,41.353214,,4.4001794,2.445,,,0.06027,111412248576.0,39.962003
+TICL,TICL.NS,Twamev Construction and Infrastructure Limited,Engineering & Construction,Industrials,6.4131584,,,1.2441926,,,,0.62202,3777350144.0,84.515
+TIGERLOGS,TIGERLOGS.NS,Tiger Logistics (India) Limited,Integrated Freight & Logistics,Industrials,13.213992,,,2.193606,32.359,,,0.04895,3399604480.0,70.97200000000001
+TIIL,TIIL.NS,Technocraft Industries (India) Limited,Tools & Accessories,Industrials,19.60731,14.99811,,2.866841,43.315,,,0.10009,53999800320.0,76.518995
+TIINDIA,TIINDIA.NS,Tube Investments of India Limited,Conglomerates,Industrials,84.0364,41.572346,,6.652363,27.724,,,0.028169999,500803141632.0,44.595
+TIJARIA,TIJARIA.NS,Tijaria Polypipes Limited,Building Products & Equipment,Industrials,,,,-0.42893782,,,-0.00988,0.0,142658096.0,47.272998
+TIL,TIL.NS,TIL Limited,Farm & Heavy Construction Machinery,Industrials,,3.984554,,20.235323,379.131,,,-0.0355,16736489472.0,76.084
+TIMETECHNO,TIMETECHNO.NS,Time Technoplast Limited,Packaging & Containers,Consumer Cyclical,20.11168,16.776922,,2.9272547,21.955,,,0.07563,96895688704.0,48.599997
+TIMKEN,TIMKEN.NS,Timken India Limited,Tools & Accessories,Industrials,54.949497,44.785435,,8.577502,0.55,,,0.13123,237780615168.0,52.432995999999996
+TINNARUBR,TINNARUBR.NS,Tinna Rubber and Infrastructure Limited,Specialty Chemicals,Basic Materials,27.6279,,,4.729517,38.443,,,0.09268,13523527680.0,70.068
+TIPSFILMS,TIPSFILMS.NS,Tips Films Limited,Entertainment,Communication Services,,,,4.5744796,453.425,,,-0.20844999,1644425856.0,79.343003
+TIPSMUSIC,TIPSMUSIC.NS,Tips Music Limited,Entertainment,Communication Services,37.584805,30.43956,,27.529318,1.065,,,0.53789,70818701312.0,65.48999500000001
+TIRUMALCHM,TIRUMALCHM.NS,Thirumalai Chemicals Limited,Specialty Chemicals,Basic Materials,,,,1.4464619,136.102,,,-0.08394,24575889408.0,41.937000000000005
+TIRUPATIFL,TIRUPATIFL.NS,Tirupati Forge Limited,Metal Fabrication,Industrials,74.333336,,,3.871528,21.318,,,0.040999997,4483994624.0,
+TITAGARH,TITAGARH.NS,TITAGARH RAIL SYSTEMS LIMITED,Railroads,Industrials,55.23774,25.960196,,3.9591043,25.09,,,0.0548,100129939456.0,40.617999999999995
+TITAN,TITAN.NS,Titan Company Limited,Luxury Goods,Consumer Cyclical,78.74349,60.502937,,29.342623,223.018,,,0.06306,3757878280192.0,58.814
+TMB,TMB.NS,Tamilnad Mercantile Bank Limited,Banks - Regional,Financial Services,8.695459,,,1.1169695,,0.13797,,0.39498,109191241728.0,29.457
+TMCV,TMCV.NS,Tata Motors Limited,Auto Manufacturers,Consumer Cyclical,7.7946267,24.200249,,16.990013,,,,0.0,1741374488576.0,42.828998
+TMPV,TMPV.NS,Tata Motors Passenger Vehicles Limited,Auto Manufacturers,Consumer Cyclical,35.59322,8.938745,,1.2572341,56.134,,,0.21158001,1391938633728.0,44.153
+TNPETRO,TNPETRO.NS,Tamilnadu PetroProducts Limited,Specialty Chemicals,Basic Materials,7.1664085,,,0.8514571,33.127,,,0.06471,8338343424.0,54.142999999999994
+TNPL,TNPL.NS,Tamil Nadu Newsprint & Papers Limited,Paper & Paper Products,Basic Materials,32.254673,3.7110214,,0.46182156,90.413,,,0.0062800003,9554523136.0,49.448
+TNTELE,TNTELE.NS,Tamilnadu Telecommunication Limited,Communication Equipment,Technology,,,,-0.20761082,,,-0.076290004,0.0,396511104.0,82.245004
+TOKYOPLAST,TOKYOPLAST.NS,Tokyo Plast International Limited,Packaging & Containers,Consumer Cyclical,81.23423,,,1.3752973,58.69,,,0.014359999,856741248.0,78.87000400000001
+TOLINS,TOLINS.NS,Tolins Tyres Limited,Auto Parts,Consumer Cyclical,11.599613,,,1.4386816,4.609,,,0.11306,4738689536.0,69.803
+TORNTPHARM,TORNTPHARM.NS,Torrent Pharmaceuticals Limited,Drug Manufacturers - Specialty & Generic,Healthcare,63.29007,63.752094,,17.003052,33.4,,,0.17833,1435584036864.0,71.130997
+TORNTPOWER,TORNTPOWER.NS,Torrent Power Limited,Utilities - Independent Power Producers,Utilities,24.271196,26.338371,,4.0953455,53.715,,,0.108830005,770266955776.0,62.326
+TOTAL,TOTAL.NS,Total Transport Systems Limited,Integrated Freight & Logistics,Industrials,8.086374,,,1.2122483,43.322,,,0.02125,1071960000.0,
+TOUCHWOOD,TOUCHWOOD.NS,Touchwood Entertainment Limited,Advertising Agencies,Communication Services,15.133214,,,2.2600667,9.449,,,0.06656,944122112.0,
+TPHQ,TPHQ.NS,Teamo Productions HQ Limited,Engineering & Construction,Industrials,9.833333,,,0.7440101,,,,0.0572,646769536.0,43.412998
+TPLPLASTEH,TPLPLASTEH.NS,TPL Plastech Limited,Packaging & Containers,Consumer Cyclical,19.353933,,,3.524477,14.357,,,0.06949,5377588736.0,78.200996
+TRACXN,TRACXN.NS,Tracxn Technologies Limited,Software - Application,Technology,,,,6.4775414,,,,-0.15168001,3508313856.0,38.724
+TRANSRAILL,TRANSRAILL.NS,Transrail Lighting Limited,Engineering & Construction,Industrials,17.602974,14.918636,,3.683757,39.105,,,0.06285,76311134208.0,75.988
+TRANSWORLD,TRANSWORLD.NS,TRANSWORLD SHIPPING LINES LIMITED,Marine Shipping,Industrials,,,,0.40578964,38.162,,,-0.12557,3134993664.0,71.738
+TRAVELFOOD,TRAVELFOOD.NS,Travel Food Services Limited,Restaurants,Consumer Cyclical,38.019924,33.781464,,13.581112,23.659,,,0.27231002,160806977536.0,86.19200000000001
+TREEHOUSE,TREEHOUSE.NS,Tree House Education & Accessories Limited,Education & Training Services,Consumer Defensive,,,,0.22791502,,,,0.0,372306176.0,34.832
+TREJHARA,TREJHARA.NS,TREJHARA SOLUTIONS LIMITED,Software - Application,Technology,75.64312,,,1.9821926,4.025,,,0.04522,4877297664.0,51.337999999999994
+TREL,TREL.NS,Transindia Real Estate Limited,Real Estate Services,Real Estate,9.300396,,,0.45693758,,,,0.71762,5781215744.0,73.917
+TRENT,TRENT.NS,Trent Limited,Apparel Retail,Consumer Cyclical,88.492325,67.48086,,23.83755,37.79,,,0.08501001,1454299152384.0,41.904
+TRF,TRF.NS,TRF Limited,Specialty Industrial Machinery,Industrials,49.714024,,,3.4828863,143.707,,,0.0642,2965138944.0,46.125
+TRIDENT,TRIDENT.NS,Trident Limited,Textile Manufacturing,Consumer Cyclical,31.9125,25.53,,2.7923002,34.742,,,0.058909997,130231074816.0,75.55100300000001
+TRIGYN,TRIGYN.NS,Trigyn Technologies Limited,Information Technology Services,Technology,60.440857,2.9898937,,0.22756992,0.885,,,0.00405,1730466176.0,48.803999999999995
+TRITURBINE,TRITURBINE.NS,Triveni Turbine Limited,Specialty Industrial Machinery,Industrials,45.4731,34.914284,,11.983279,2.946,,,0.16752,155829911552.0,59.801996
+TRIVENI,TRIVENI.NS,Triveni Engineering & Industries Limited,Confectioners,Consumer Defensive,27.475,18.636143,,2.7354832,24.554,,,0.04639,84242251776.0,66.710997
+TRU,TRU.NS,TruCap Finance Limited,Credit Services,Financial Services,,,,0.7321041,301.695,,,0.0,803767168.0,54.16
+TRUALT,TRUALT.NS,TruAlt Bioenergy Limited,Oil & Gas Refining & Marketing,Energy,23.747099,,,2.0638096,110.289,,,0.088240005,35141881856.0,81.732005
+TSFINV,TSFINV.NS,TSF INVESTMENTS LIMITED,Asset Management,Financial Services,19.764845,,,1.5651215,4.579,,,0.63479,91818835968.0,0.0
+TTKHLTCARE,TTKHLTCARE.NS,TTK Healthcare Limited,Drug Manufacturers - General,Healthcare,21.835487,,,1.2096947,2.472,,,0.072399996,13128492032.0,76.64999999999999
+TTKPRESTIG,TTKPRESTIG.NS,TTK Prestige Limited,"Furnishings, Fixtures & Appliances",Consumer Cyclical,87.742195,32.441177,,3.8476768,9.993,,,0.02873,73179750400.0,70.535004
+TTL,TTL.NS,T T Limited,Textile Manufacturing,Consumer Cyclical,,,,2.386091,58.218,,,-0.0229,2570193920.0,68.558997
+TTML,TTML.NS,Tata Teleservices (Maharashtra) Limited,Telecom Services,Communication Services,,,,-0.42513773,,,,-0.94005996,83919790080.0,74.358004
+TVSELECT,TVSELECT.NS,TVS Electronics Limited,Computer Hardware,Technology,,,,7.922078,68.722,,,-0.00475,7265305600.0,66.32000000000001
+TVSHLTD,TVSHLTD.NS,TVS Holdings Limited,Auto Parts,Consumer Cyclical,18.622038,,,5.2104435,315.772,,,0.0332,287553519616.0,23.674
+TVSMOTOR,TVSMOTOR.NS,TVS Motor Company Limited,Auto Manufacturers,Consumer Cyclical,82.637505,41.068756,,22.34453,346.085,,,0.055159997,1812542652416.0,52.101003999999996
+TVSSCS,TVSSCS.NS,TVS Supply Chain Solutions Limited,Integrated Freight & Logistics,Industrials,58.822117,33.067566,,2.725794,112.34,,,0.00878,53978378240.0,66.05799999999999
+TVSSRICHAK,TVSSRICHAK.NS,TVS Srichakra Limited,Auto Parts,Consumer Cyclical,69.92659,42.848324,,2.7148705,68.917,,,0.01285,31607500800.0,53.713
+TVTODAY,TVTODAY.NS,TV Today Network Limited,Broadcasting,Communication Services,26.664543,6.3429294,,0.8529438,1.895,,,0.0136,7493781504.0,65.956
+TVVISION,TVVISION.NS,TV Vision Limited,Broadcasting,Communication Services,,,,-0.14906833,,,,-1.26355,242839840.0,70.231
+UBL,UBL.NS,United Breweries Limited,Beverages - Brewers,Consumer Defensive,103.06109,59.1884,,9.75292,17.864,,,0.043909997,423735689216.0,72.84
+UCAL,UCAL.NS,UCAL LIMITED,Auto Parts,Consumer Cyclical,,,,0.6971611,87.154,,,-0.05073,2422376192.0,71.882004
+UCOBANK,UCOBANK.NS,UCO Bank,Banks - Regional,Financial Services,14.04369,20.664286,,1.0928116,,0.08567,0.0072899996,0.21959999,363015798784.0,90.95099599999999
+UDS,UDS.NS,Updater Services Limited,Specialty Business Services,Industrials,12.004363,8.886137,,1.0989348,4.984,,,0.031689998,11147444224.0,60.241
+UEL,UEL.NS,Ujaas Energy Limited,Solar,Technology,,,,68.44037,27.252,,,0.16209,24494811136.0,98.577005
+UFBL,UFBL.NS,United Foodbrands Limited,Restaurants,Consumer Cyclical,,-43.15862,,2.9828765,242.354,,,-0.05189,9784104960.0,48.977003
+UFLEX,UFLEX.NS,UFLEX Limited,Packaging & Containers,Consumer Cyclical,11.389029,8.088913,,0.4263789,120.69,,,0.01939,33079347200.0,82.418
+UFO,UFO.NS,UFO Moviez India Limited,Entertainment,Communication Services,14.347139,2.490243,,0.8994793,29.853,,,0.04428,2823385600.0,53.071999999999996
+UGARSUGAR,UGARSUGAR.NS,The Ugar Sugar Works Limited,Confectioners,Consumer Defensive,41.390804,,,2.360847,256.285,,,0.01179,4051124736.0,49.702
+UGROCAP,UGROCAP.NS,Ugro Capital Limited,Credit Services,Financial Services,8.520261,7.1580544,,0.5463606,331.546,,,0.21666999,18060349440.0,48.414
+UJJIVANSFB,UJJIVANSFB.NS,Ujjivan Small Finance Bank Limited,Banks - Regional,Financial Services,24.813492,11.6947365,,1.9105964,,,,0.13024001,121364226048.0,3.5929999999999995
+ULTRACEMCO,ULTRACEMCO.NS,UltraTech Cement Limited,Building Materials,Basic Materials,49.018932,33.021385,,5.2129765,33.192,,,0.08936,3755423825920.0,60.6
+UMAEXPORTS,UMAEXPORTS.NS,Uma Exports Limited,Farm Products,Consumer Defensive,,,,0.50114167,95.923,,,-0.00281,986908992.0,74.667
+UMESLTD,UMESLTD.NS,Usha Martin Education & Solutions Limited,Education & Training Services,Consumer Defensive,28.8,,,0.89164096,2.889,,,0.48792,115477544.0,34.011
+UMIYA-MRO,UMIYA-MRO.NS,UMIYA BUILDCON LIMITED,Real Estate - Development,Real Estate,3.8500896,,,1.416891,100.012,,,0.61623,1647373824.0,74.452
+UNICHEMLAB,UNICHEMLAB.NS,Unichem Laboratories Limited,Drug Manufacturers - Specialty & Generic,Healthcare,8.778999,,,1.0605959,20.616,,,0.13319999,25842429952.0,71.308
+UNIDT,UNIDT.NS,United Drilling Tools Limited,Oil & Gas Equipment & Services,Energy,24.685827,,,1.3881787,11.201,,,0.106979996,3753483008.0,82.055
+UNIECOM,UNIECOM.NS,Unicommerce Esolutions Limited,Software - Application,Technology,62.370167,45.33735,,7.225885,5.913,,,0.10311,12687707136.0,48.134
+UNIENTER,UNIENTER.NS,Uniphos Enterprises Limited,Chemicals,Basic Materials,38.03158,,,0.26502648,,,,0.25188,7547131392.0,79.326
+UNIINFO,UNIINFO.NS,Uniinfo Telecom Services Limited,Telecom Services,Communication Services,92.13333,,,0.45807093,15.548,,,-0.0063,147778928.0,
+UNIMECH,UNIMECH.NS,Unimech Aerospace and Manufacturing Limited,Aerospace & Defense,Industrials,68.94757,42.399532,,6.5364914,16.073,,,0.29236,46144991232.0,79.816
+UNIONBANK,UNIONBANK.NS,Union Bank of India,Banks - Regional,Financial Services,7.8186216,8.081183,,1.130031,,0.15561,0.01298,0.34967,1481152004096.0,74.75700400000001
+UNIPARTS,UNIPARTS.NS,Uniparts India Limited,Farm & Heavy Construction Machinery,Industrials,16.499306,,,2.3356073,13.13,,,0.119890004,21410150400.0,65.971
+UNITDSPR,UNITDSPR.NS,United Spirits Limited,Beverages - Wineries & Distilleries,Consumer Defensive,56.80807,48.795124,,11.656582,4.898,,,0.13314,1003304517632.0,59.499
+UNITECH,UNITECH.NS,Unitech Limited,Real Estate - Diversified,Real Estate,,2.1731603,,-0.16385952,,,,0.0,13169376256.0,16.192
+UNITEDPOLY,UNITEDPOLY.NS,United Polyfab Gujarat Limited,Textile Manufacturing,Consumer Cyclical,,,,4.2975516,89.939,,,0.03382,5237543936.0,
+UNITEDTEA,UNITEDTEA.NS,The United Nilgiri Tea Estates Company Limited,Farm Products,Consumer Defensive,11.807501,,,1.1237549,,,,0.25719,2611205888.0,
+UNIVASTU,UNIVASTU.NS,Univastu India Limited,Engineering & Construction,Industrials,21.821918,,,2.6265457,43.706,,,0.09024,2293076992.0,
+UNIVCABLES,UNIVCABLES.NS,Universal Cables Limited,Electrical Equipment & Parts,Industrials,15.037445,45.942127,,1.2659872,54.171,,,0.05513,23730149376.0,73.264
+UNIVPHOTO,UNIVPHOTO.NS,Universus Photo Imagings Limited,Medical Devices,Healthcare,,,,0.48988193,,,,0.0,4125713408.0,86.101997
+UNOMINDA,UNOMINDA.NS,UNO Minda Limited,Auto Parts,Consumer Cyclical,60.60852,44.826702,,11.048354,43.136,,,0.060349997,689692016640.0,68.536
+UPL,UPL.NS,UPL Limited,Agricultural Inputs,Basic Materials,35.963192,16.885784,,1.9325563,79.613,,,0.0358,635949547520.0,33.568
+URAVIDEF,URAVIDEF.NS,Uravi Defence and Technology Limited,Auto Parts,Consumer Cyclical,78.80402,,,3.7159379,45.279,,,0.06519,1799560960.0,73.322
+URBANCO,URBANCO.NS,Urban Company Limited,Software - Application,Technology,,-204.81738,,7.7120028,6.017,,,-0.05353,172201000960.0,36.492999999999995
+URJA,URJA.NS,Urja Global Limited,Solar,Technology,490.00003,,,2.962515,23.646,,,0.01894,5460619264.0,20.636
+USHAMART,USHAMART.NS,Usha Martin Limited,Steel,Basic Materials,28.002783,21.178947,,4.124514,8.912,,,0.11618,122699898880.0,40.418997000000005
+USK,USK.NS,Udayshivakumar Infra Limited,Engineering & Construction,Industrials,,,,0.96638227,39.287,,,-0.06509,1570633088.0,65.95099599999999
+UTIAMC,UTIAMC.NS,UTI Asset Management Company Limited,Asset Management,Financial Services,24.633047,15.440743,,3.1183624,3.024,,,0.30203,137174884352.0,34.750998
+UTKARSHBNK,UTKARSHBNK.NS,Utkarsh Small Finance Bank Limited,Banks - Regional,Financial Services,,13.381996,,0.64351195,,,,-1.66377,24859947008.0,55.437000000000005
+UTLSOLAR,UTLSOLAR.NS,Fujiyama Power Systems Limited,Solar,Technology,25.90898,,,11.1615095,138.421,,,0.11147001,64542400512.0,88.003
+UTTAMSUGAR,UTTAMSUGAR.NS,Uttam Sugar Mills Limited,Confectioners,Consumer Defensive,6.7164636,,,0.9535833,34.457,,,0.048460003,7582434816.0,80.21000000000001
+UYFINCORP,UYFINCORP.NS,U. Y. Fincorp Limited,Credit Services,Financial Services,8.488095,,,0.78094196,1.149,,,0.29483998,2712798720.0,73.665
+V2RETAIL,V2RETAIL.NS,V2 Retail Limited,Apparel Retail,Consumer Cyclical,46.29923,22.576136,,17.874687,339.244,,,0.05432,72442544128.0,59.763
+VADILALIND,VADILALIND.NS,Vadilal Industries Limited,Packaged Foods,Consumer Defensive,28.570927,,,4.449376,25.978,,,0.08926,34934292480.0,67.71000000000001
+VAIBHAVGBL,VAIBHAVGBL.NS,Vaibhav Global Limited,Luxury Goods,Consumer Cyclical,18.942696,4.8491735,,2.7072854,15.726,,,0.05797,39190798336.0,59.157000000000004
+VAISHALI,VAISHALI.NS,Vaishali Pharma Limited,Drug Manufacturers - Specialty & Generic,Healthcare,128.83334,,,1.5124241,23.153,,,-0.00446,1008472256.0,
+VAKRANGEE,VAKRANGEE.NS,Vakrangee Limited,Information Technology Services,Technology,63.363636,,,3.187014,1.919,,,0.04508,7549846528.0,42.339
+VALIANTLAB,VALIANTLAB.NS,Valiant Laboratories Limited,Drug Manufacturers - Specialty & Generic,Healthcare,,,,0.9190365,16.944,,,-0.02131,3166418688.0,75.952005
+VALIANTORG,VALIANTORG.NS,Valiant Organics Limited,Chemicals,Basic Materials,29.603367,,,0.93427104,31.902,,,0.02996,6920155136.0,60.955000000000005
+VARDHACRLC,VARDHACRLC.NS,Vardhman Acrylics Limited,Textile Manufacturing,Consumer Cyclical,29.559057,,,1.3114411,,,,0.04434,3016855040.0,0.0
+VARDMNPOLY,VARDMNPOLY.NS,Vardhman Polytex Limited,Textile Manufacturing,Consumer Cyclical,7.354167,,,-1.4766785,,,,0.03076,3244942336.0,72.893
+VARROC,VARROC.NS,Varroc Engineering Limited,Auto Parts,Consumer Cyclical,47.387154,19.810734,,4.951205,53.145,,,0.020450002,83413155840.0,75.0
+VASCONEQ,VASCONEQ.NS,Vascon Engineers Limited,Engineering & Construction,Industrials,11.441176,,,0.78919077,24.443,,,0.07158,8908899328.0,47.13
+VASWANI,VASWANI.NS,Vaswani Industries Limited,Steel,Basic Materials,18.294294,,,1.2812585,174.83,0.0759,0.0418,0.02535,2010276096.0,66.656
+VBL,VBL.NS,Varun Beverages Limited,Beverages - Non-Alcoholic,Consumer Defensive,50.48387,38.030285,,7.8872824,12.705,0.16787,0.1074,0.14002,1534963482624.0,59.437
+VCL,VCL.NS,Vaxtex Cotfab Limited,Textile Manufacturing,Consumer Cyclical,34.666668,,,2.2269807,63.082,,,0.36863998,382204608.0,
+VEDL,VEDL.NS,Vedanta Limited,Other Industrial Metals & Mining,Basic Materials,18.94116,9.260915,,6.630363,190.255,,,0.088319995,2667131174912.0,58.484
+VEEDOL,VEEDOL.NS,Veedol Corporation Limited,Specialty Chemicals,Basic Materials,12.468432,,,2.4726417,2.144,,,0.0926,24164990976.0,69.128996
+VENKEYS,VENKEYS.NS,Venky's (India) Limited,Farm Products,Consumer Defensive,37.877373,25.463957,,1.3378446,13.056,,,0.01475,19406712832.0,61.182
+VENTIVE,VENTIVE.NS,Ventive Hospitality Limited,Lodging,Consumer Cyclical,45.038193,37.12495,,3.3205059,42.178,,,0.15432,165242372096.0,88.982004
+VENUSPIPES,VENUSPIPES.NS,Venus Pipes & Tubes Limited,Steel,Basic Materials,21.275154,14.797201,,3.4882936,42.716,,,0.08906999,21556445184.0,52.706003
+VENUSREM,VENUSREM.NS,Venus Remedies Limited,Drug Manufacturers - Specialty & Generic,Healthcare,13.298599,,,1.7078437,2.42,,,0.10854,10162147328.0,47.924
+VERANDA,VERANDA.NS,Veranda Learning Solutions Limited,Education & Training Services,Consumer Defensive,19.684975,,,2.0170531,42.052,,,0.20098,18589652992.0,54.80199999999999
+VERTOZ,VERTOZ.NS,Vertoz Limited,Software - Infrastructure,Technology,9.386274,,,1.6685838,8.016,,,0.09083,4079960064.0,
+VESUVIUS,VESUVIUS.NS,Vesuvius India Limited,Specialty Industrial Machinery,Industrials,46.301994,33.7303,,7.893655,,,,0.11821,113051844608.0,55.566
+VETO,VETO.NS,Veto Switchgears And Cables Limited,Electrical Equipment & Parts,Industrials,9.376811,5.9255867,,0.71505535,5.817,,,0.07086,1978780160.0,47.562
+VGL,VGL.NS,VARVEE GLOBAL LIMITED,Textile Manufacturing,Consumer Cyclical,14.510089,,,3.2571657,27.428,,,0.75439,3334678272.0,69.144
+VGUARD,VGUARD.NS,V-Guard Industries Limited,Electrical Equipment & Parts,Industrials,48.30015,33.2,,6.310398,6.884,,,0.04998,137623093248.0,55.904996
+VHL,VHL.NS,Vardhman Holdings Limited,Credit Services,Financial Services,4.621086,,,0.28712097,,,,14.548559,10836556800.0,85.521007
+VHLTD,VHLTD.NS,Viceroy Hotels Limited,Lodging,Consumer Cyclical,42.590214,,,3.821375,20.112,,,0.17118,9428569088.0,86.25499599999999
+VIDHIING,VIDHIING.NS,Vidhi Specialty Food Ingredients Limited,Specialty Chemicals,Basic Materials,32.586567,,,5.0239425,19.505,,,0.13003,15581741056.0,67.719
+VIDYAWIRES,VIDYAWIRES.NS,Vidya Wires Limited,Electrical Equipment & Parts,Industrials,20.5875,,,4.228498,99.197,,,0.03131,10509126656.0,74.652
+VIJAYA,VIJAYA.NS,Vijaya Diagnostic Centre Limited,Diagnostics & Research,Healthcare,65.34327,48.786266,,11.990303,42.224,,,0.20727,103812513792.0,52.512
+VIJIFIN,VIJIFIN.NS,Viji Finance Limited,Credit Services,Financial Services,24.555555,,,1.5003394,55.097,,,0.36097,322192512.0,55.187
+VIKASECO,VIKASECO.NS,Vikas EcoTech Limited,Specialty Chemicals,Basic Materials,24.666668,,,0.5121107,9.468,,,0.01994,2054766848.0,25.035
+VIKASLIFE,VIKASLIFE.NS,Vikas Lifecare Limited,Farm Products,Consumer Defensive,,,,0.43572986,14.385,,,-0.02447,2985903872.0,16.168
+VIKRAMSOLR,VIKRAMSOLR.NS,Vikram Solar Limited,Solar,Technology,15.450603,11.492859,,2.1877985,8.898,,,0.09919,69697830912.0,66.98000400000001
+VIKRAN,VIKRAN.NS,Vikran Engineering Limited,Engineering & Construction,Industrials,25.610527,,,1.3064723,27.396,,,0.07675,18824925184.0,62.912
+VIMTALABS,VIMTALABS.NS,Vimta Labs Limited,Diagnostics & Research,Healthcare,28.254063,,,5.0339494,1.632,,,0.18821,20955619328.0,65.869004
+VINATIORGA,VINATIORGA.NS,Vinati Organics Limited,Specialty Chemicals,Basic Materials,35.20916,27.37835,,5.3235617,,,,0.195,156295659520.0,75.286
+VINCOFE,VINCOFE.NS,Vintage Coffee And Beverages Limited,Beverages - Non-Alcoholic,Consumer Defensive,30.463984,,,3.9642148,16.989,,,0.13557,20971667456.0,40.555
+VINDHYATEL,VINDHYATEL.NS,Vindhya Telelinks Limited,Engineering & Construction,Industrials,5.688141,,,0.3034112,32.942,,,0.05941,12891369472.0,58.701
+VINEETLAB,VINEETLAB.NS,Vineet Laboratories Limited,Chemicals,Basic Materials,,,,2.1004655,300.832,,,-0.18101999,615176704.0,14.316
+VINNY,VINNY.NS,Vinny Overseas Limited,Textile Manufacturing,Consumer Cyclical,8.692308,,,0.4101633,16.674,,,0.012610001,525728672.0,39.928999999999995
+VINYLINDIA,VINYLINDIA.NS,Vinyl Chemicals (India) Limited,Specialty Chemicals,Basic Materials,21.275167,,,3.339202,0.405,,,0.02963,4082417664.0,54.790000000000006
+VIPCLOTHNG,VIPCLOTHNG.NS,VIP Clothing Limited,Apparel Manufacturing,Consumer Cyclical,22.867346,,,1.0613308,40.011,,,0.03158,2021725440.0,50.344
+VIPIND,VIPIND.NS,VIP Industries Limited,Footwear & Accessories,Consumer Cyclical,,53.879944,,11.265881,167.839,,,-0.123409994,52274929664.0,3.7769999999999997
+VIPULLTD,VIPULLTD.NS,Vipul Limited,Real Estate - Diversified,Real Estate,,,,0.36191785,19.491,,,-0.44313,1484303360.0,42.324
+VIRINCHI,VIRINCHI.NS,Virinchi Limited,Software - Application,Technology,,,,0.4481511,64.151,,,-0.05529,2157147392.0,43.549
+VISAKAIND,VISAKAIND.NS,Visaka Industries Limited,Building Products & Equipment,Industrials,9.060606,,,0.69109356,53.394,,,0.03689,5425354752.0,54.236
+VISASTEEL,VISASTEEL.NS,Visa Steel Limited,Steel,Basic Materials,,,,-0.33150098,,,,-0.94097,5141279744.0,84.12000499999999
+VISHNU,VISHNU.NS,Vishnu Chemicals Limited,Specialty Chemicals,Basic Materials,24.934309,18.632729,,3.451528,41.813,,,0.08879,34492350464.0,71.765
+VISHWARAJ,VISHWARAJ.NS,Vishwaraj Sugar Industries Limited,Confectioners,Consumer Defensive,,,,0.50142753,145.775,-0.13826999,-0.010880001,-0.083500005,1227755520.0,32.797
+VIVIDHA,VIVIDHA.NS,Visagar Polytex Limited,Textile Manufacturing,Consumer Cyclical,,,,73.74999,2622.617,,,0.0,172693312.0,5.633
+VIVIMEDLAB,VIVIMEDLAB.NS,Vivimed Labs Limited,Drug Manufacturers - Specialty & Generic,Healthcare,,,,-1.389033,,,,-0.22357,665798720.0,16.752
+VIYASH,VIYASH.NS,Viyash Scientific Limited,Drug Manufacturers - Specialty & Generic,Healthcare,84.0155,,,6.693429,55.307,,,0.0537,94785781760.0,67.95
+VLEGOV,VLEGOV.NS,VL E-Governance & IT Solutions Limited,Information Technology Services,Technology,,,,4.0745134,,,,0.0,1866881408.0,38.391998
+VLSFINANCE,VLSFINANCE.NS,VLS Finance Limited,Capital Markets,Financial Services,,,,0.34295067,0.001,,,0.61292,8192969216.0,66.643
+VMART,VMART.NS,V-Mart Retail Limited,Department Stores,Consumer Cyclical,34.97258,30.86669,,5.3740487,94.737,,,0.03647,45849739264.0,51.916002999999996
+VMM,VMM.NS,Vishal Mega Mart Limited,Department Stores,Consumer Cyclical,70.0,53.10233,,7.8220143,27.12,,,0.06373,546274050048.0,54.086999999999996
+VMSTMT,VMSTMT.NS,VMS TMT Limited,Steel,Basic Materials,15.5401945,,,0.75017464,128.794,,,0.027460001,2398676480.0,73.359
+VOLTAMP,VOLTAMP.NS,Voltamp Transformers Limited,Electrical Equipment & Parts,Industrials,23.473959,22.251589,,5.0621676,0.082,,,0.16365999,83258834944.0,30.017
+VOLTAS,VOLTAS.NS,Voltas Limited,"Furnishings, Fixtures & Appliances",Consumer Cyclical,102.03826,52.105965,,8.085787,27.449,,,0.03545,511845597184.0,36.091998
+VPRPL,VPRPL.NS,Vishnu Prakash R Punglia Limited,Engineering & Construction,Industrials,19.093496,21.35,,0.38739103,90.698,,,-0.0026699998,5877879808.0,45.639
+VRAJ,VRAJ.NS,Vraj Iron and Steel Limited,Steel,Basic Materials,13.01002,,,1.0366715,6.498,,,0.046350002,4282463232.0,78.616
+VRLLOG,VRLLOG.NS,VRL Logistics Limited,Trucking,Industrials,20.7478,20.15259,,4.518313,101.073,,,0.07498,49507168256.0,60.242003
+VSSL,VSSL.NS,Vardhman Special Steels Limited,Steel,Basic Materials,20.913622,11.29148,,1.9955461,6.413,,,0.0625,24324200448.0,77.957
+VSTIND,VSTIND.NS,VST Industries Limited,Tobacco,Consumer Defensive,17.737,11.937,,3.1936328,,,,0.16847,40476856320.0,62.236999999999995
+VSTL,VSTL.NS,Vibhor Steel Tubes Limited,Steel,Basic Materials,17.8125,,,1.1471065,100.907,,,0.00966,2215761664.0,74.921
+VSTTILLERS,VSTTILLERS.NS,V.S.T Tillers Tractors Limited,Farm & Heavy Construction Machinery,Industrials,42.017628,30.596025,,4.9133935,0.173,,,0.102239996,51924033536.0,56.186
+VTL,VTL.NS,Vardhman Textiles Limited,Textile Manufacturing,Consumer Cyclical,19.117962,15.459654,,1.5037689,14.465,,,0.08076,155161362432.0,64.911
+WAAREEENER,WAAREEENER.NS,Waaree Energies Limited,Solar,Technology,25.509289,17.398256,,7.247298,25.128,,,0.14819,833468301312.0,68.38300000000001
+WAAREEINDO,WAAREEINDO.NS,Indosolar Limited,Solar,Technology,6.8447013,,,8.223321,1.522,,,0.30961,16741325824.0,76.276
+WAAREERTL,WAAREERTL.NS,Waaree Renewable Technologies Limited,Utilities - Renewable,Utilities,21.977968,,,13.899797,12.31,,,0.15404001,91594735616.0,75.375
+WABAG,WABAG.NS,VA Tech Wabag Limited,Engineering & Construction,Industrials,23.528652,17.541111,,3.4084063,10.322,,,0.092700005,79303589888.0,28.410000000000004
+WAKEFIT,WAKEFIT.NS,Wakefit Innovations Limited,"Furnishings, Fixtures & Appliances",Consumer Cyclical,164.18399,,,6.0080795,49.699,,,0.02848,67075047424.0,56.726
+WALCHANNAG,WALCHANNAG.NS,Walchandnagar Industries Limited,Engineering & Construction,Industrials,,,,3.354563,55.731,,,-0.31355,11720394752.0,41.824
+WANBURY,WANBURY.NS,Wanbury Limited,Drug Manufacturers - Specialty & Generic,Healthcare,14.105016,,,8.345028,182.866,,,0.09825,9477860352.0,50.709
+WCIL,WCIL.NS,Western Carriers (India) Limited,Integrated Freight & Logistics,Industrials,27.567127,,,1.4288113,22.782,,,0.02533,12141846528.0,72.857004
+WEALTH,WEALTH.NS,Wealth First Portfolio Managers Limited,Capital Markets,Financial Services,42.73277,,,6.7496004,,,,0.47617,10171796480.0,76.957
+WEBELSOLAR,WEBELSOLAR.NS,Websol Energy System Limited,Solar,Technology,12.115312,,,6.9144454,40.716,,,0.27622998,27050045440.0,31.787001999999998
+WEIZMANIND,WEIZMANIND.NS,Weizmann Limited,Textile Manufacturing,Consumer Cyclical,,,,2.1335166,11.861,,,-0.02394,1347345408.0,87.081003
+WEL,WEL.NS,Wonder Electricals Limited,"Furnishings, Fixtures & Appliances",Consumer Cyclical,104.27408,,,21.400122,91.622,,,0.01897,18864306176.0,80.849
+WELCORP,WELCORP.NS,Welspun Corp Limited,Steel,Basic Materials,10.638153,11.446312,,2.5263112,18.258,,,0.11848,206612037632.0,49.848
+WELENT,WELENT.NS,Welspun Enterprises Limited,Engineering & Construction,Industrials,21.688425,16.394737,,2.5422993,67.637,,,0.08924,68188000256.0,65.438
+WELINV,WELINV.NS,Welspun Investments and Commercials Limited,Capital Markets,Financial Services,149.1792,,,0.64455324,,,,0.61432,5001679360.0,82.234
+WELSPUNLIV,WELSPUNLIV.NS,Welspun Living Limited,Textile Manufacturing,Consumer Cyclical,55.82857,18.362196,,2.8295991,54.975,,,0.0242,130844286976.0,68.83399999999999
+WENDT,WENDT.NS,Wendt (India) Limited,Tools & Accessories,Industrials,60.97724,80.64802,,5.511463,0.117,,,0.09117,13665000448.0,42.605
+WESTLIFE,WESTLIFE.NS,WESTLIFE FOODWORLD LIMITED,Restaurants,Consumer Cyclical,250.12315,160.98349,,12.686772,266.799,,,0.01233,79021694976.0,62.601
+WEWIN,WEWIN.NS,WE WIN LIMITED,Information Technology Services,Technology,13.798078,,,1.4176106,30.051,,,0.05587,437431040.0,83.938
+WEWORK,WEWORK.NS,WeWork India Management Limited,Real Estate Services,Real Estate,156.02638,32.350014,,35.481827,2378.742,,,0.01988,71307075584.0,65.120006
+WHEELS,WHEELS.NS,Wheels India Limited,Auto Parts,Consumer Cyclical,16.2344,24.077253,,2.2771034,75.506,,,0.02611,21931071488.0,0.0
+WHIRLPOOL,WHIRLPOOL.NS,Whirlpool of India Limited,"Furnishings, Fixtures & Appliances",Consumer Cyclical,35.46512,26.139427,,1.4457133,6.334,,,0.042340003,118067650560.0,39.769
+WILLAMAGOR,WILLAMAGOR.NS,Williamson Magor & Company Limited,Credit Services,Financial Services,,,,-0.1682976,,,,8.484119,304696352.0,68.679
+WINDLAS,WINDLAS.NS,Windlas Biotech Limited,Drug Manufacturers - Specialty & Generic,Healthcare,24.813992,,,3.067128,5.843,,,0.076869994,16454125568.0,64.762
+WINDMACHIN,WINDMACHIN.NS,Windsor Machines Limited,Specialty Industrial Machinery,Industrials,,,,2.806594,5.437,,,-0.028199999,21336403968.0,77.00399999999999
+WINSOME,WINSOME.NS,Winsome Yarns Limited,Textile Manufacturing,Consumer Cyclical,,,,-0.027816413,,,-0.05578,0.0,125582184.0,50.124
+WIPL,WIPL.NS,The Western India Plywoods Limited,Lumber & Wood Production,Basic Materials,57.55039,,,2.5160556,44.281,,,0.0178,1260200192.0,
+WIPRO,WIPRO.NS,Wipro Limited,Information Technology Services,Technology,16.642347,15.57168,,2.4512918,22.031,0.15195,0.06766,0.14594,2198542876672.0,72.791
+WOCKPHARMA,WOCKPHARMA.NS,Wockhardt Limited,Drug Manufacturers - Specialty & Generic,Healthcare,1114.1935,,,4.9056926,50.369,,,0.00693,224499187712.0,51.019999999999996
+WONDERLA,WONDERLA.NS,Wonderla Holidays Limited,Leisure,Consumer Cyclical,41.16822,22.748827,,1.7793535,0.304,,,0.1591,30728437760.0,64.158994
+WORTHPERI,WORTHPERI.NS,Worth Peripherals Limited,Packaging & Containers,Consumer Cyclical,13.661149,,,1.2120637,9.589,,,0.05391,2209865472.0,73.072
+WSI,WSI.NS,W S Industries (I) Limited,Engineering & Construction,Industrials,,,,3.1789465,43.646,,,-0.01432,4936011264.0,72.384
+WSTCSTPAPR,WSTCSTPAPR.NS,West Coast Paper Mills Limited,Paper & Paper Products,Basic Materials,18.940794,,,0.7637204,11.26,,,0.034849998,27047028736.0,59.833000000000006
+XCHANGING,XCHANGING.NS,Xchanging Solutions Limited,Information Technology Services,Technology,12.857419,,,2.0254972,24.199,,,0.28593,7433970176.0,75.0
+XELPMOC,XELPMOC.NS,Xelpmoc Design And Tech Limited,Information Technology Services,Technology,,,,2.6299734,0.36,,,-2.01164,2221832192.0,62.264997
+XPROINDIA,XPROINDIA.NS,Xpro India Limited,Specialty Chemicals,Basic Materials,156.23665,,,3.0056822,46.18,,,0.024260001,20641888256.0,50.442004
+XTGLOBAL,XTGLOBAL.NS,Xtglobal Infotech Limited,Software - Application,Technology,40.3662,,,2.0418923,25.53,,,0.02715,3873625088.0,88.06
+YASHO,YASHO.NS,Yasho Industries Limited,Specialty Chemicals,Basic Materials,138.9013,,,4.2057247,138.322,,,0.02368,17988868096.0,74.97200000000001
+YATHARTH,YATHARTH.NS,Yatharth Hospital & Trauma Care Services Limited,Medical Care Facilities,Healthcare,41.3253,29.161942,,4.1100345,1.525,,,0.15289,69404041216.0,56.938
+YATRA,YATRA.NS,Yatra Online Limited,Travel Services,Consumer Cyclical,42.924194,26.012367,,2.83888,6.87,,,0.05179,23102771200.0,66.756
+YESBANK,YESBANK.NS,Yes Bank Limited,Banks - Regional,Financial Services,20.831684,15.859496,,1.3357882,,0.06531,0.00754,0.20492001,660843266048.0,44.175997
+YUKEN,YUKEN.NS,Yuken India Limited,Specialty Industrial Machinery,Industrials,59.52229,,,2.758458,33.231,,,0.03638,10155398144.0,69.501
+ZAGGLE,ZAGGLE.NS,Zaggle Prepaid Ocean Services Limited,Software - Infrastructure,Technology,27.626621,17.120438,,2.3974283,1.351,,,0.07556,31599431680.0,53.083000000000006
+ZEEL,ZEEL.NS,Zee Entertainment Enterprises Limited,Broadcasting,Communication Services,15.425169,10.668542,,0.7581583,2.465,,,0.06843,87119110144.0,4.779
+ZEELEARN,ZEELEARN.NS,Zee Learn Limited,Education & Training Services,Consumer Defensive,19.225807,,,1.0048895,219.814,,,0.023710001,1957322368.0,39.373999999999995
+ZEEMEDIA,ZEEMEDIA.NS,Zee Media Corporation Limited,Broadcasting,Communication Services,,,,2.96484,54.648,,,-0.010989999,5854011904.0,39.451997999999996
+ZENITHEXPO,ZENITHEXPO.NS,Zenith Exports Limited,Textile Manufacturing,Consumer Cyclical,19.373253,,,1.2396388,3.617,,,0.07469,1122967040.0,91.027
+ZENITHSTL,ZENITHSTL.NS,Zenith Steel Pipes & Industries Limited,Steel,Basic Materials,12.512196,,,-0.2921246,,,,0.08627,738909760.0,40.473998
+ZENSARTECH,ZENSARTECH.NS,Zensar Technologies Limited,Information Technology Services,Technology,17.393667,15.82627,,2.9744997,2.741,,,0.13231,126980186112.0,3.8649999999999998
+ZENTEC,ZENTEC.NS,Zen Technologies Limited,Aerospace & Defense,Industrials,45.0494,32.38041,,6.6162596,0.976,,,0.31508,118897844224.0,49.958000000000006
+ZFCVINDIA,ZFCVINDIA.NS,ZF Commercial Vehicle Control Systems India Limited,Auto Parts,Consumer Cyclical,58.139797,47.28908,,8.4775305,1.806,,,0.12515001,289179795456.0,60.279
+ZIMLAB,ZIMLAB.NS,Zim Laboratories Limited,Drug Manufacturers - Specialty & Generic,Healthcare,49.152775,,,1.3286031,48.918,,,0.018480001,3449520896.0,71.807
+ZODIAC,ZODIAC.NS,Zodiac Energy Limited,,,69.624664,,,3.9134433,178.121,,,0.039470002,,72.165
+ZODIACLOTH,ZODIACLOTH.NS,Zodiac Clothing Company Limited,Apparel Manufacturing,Consumer Cyclical,,,,1.1403126,61.685,,,-0.19993,2225481728.0,78.497005
+ZOTA,ZOTA.NS,Zota Health Care LImited,Biotechnology,Healthcare,,,,12.830342,56.9,,,-0.15369001,40099770368.0,0.0
+ZUARI,ZUARI.NS,Zuari Agro Chemicals Limited,Agricultural Inputs,Basic Materials,1.0060165,53.66279,,0.3837238,23.991,,,0.24334,9712585728.0,65.615
+ZUARIIND,ZUARIIND.NS,ZUARI INDUSTRIES LIMITED,Conglomerates,Industrials,6.336992,,,0.1618624,50.399,,,0.11413,7565910016.0,60.757000000000005
+ZYDUSLIFE,ZYDUSLIFE.NS,Zydus Lifesciences Limited,Drug Manufacturers - Specialty & Generic,Healthcare,18.348951,21.658236,,3.5816247,34.305,,,0.18929,906662641664.0,75.17
+ZYDUSWELL,ZYDUSWELL.NS,Zydus Wellness Limited,Packaged Foods,Consumer Defensive,61.328724,32.802227,,2.225635,53.314,,,0.061100002,127542599680.0,69.83
