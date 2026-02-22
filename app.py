@@ -33,6 +33,30 @@ FUND_RANKED = PROCESSED_DIR / "fundamentals_ranked_report.csv"
 FUND_TOP = PROCESSED_DIR / "fundamentals_top_picks.csv"
 
 
+COMPANY_SUMMARY_REQUIRED = {"news_count", "vibe", "avg_sentiment"}
+COMPANY_DETAILS_REQUIRED = {
+    "symbol",
+    "published",
+    "title",
+    "link",
+    "source",
+    "sentiment_label",
+    "sentiment_score",
+}
+CEO_SUMMARY_REQUIRED = {"news_count", "avg_sentiment"}
+POLICY_SUMMARY_REQUIRED = {"scheme_mentions", "benefit_bucket", "policy_benefit_score"}
+POLICY_EVIDENCE_REQUIRED = {
+    "symbol",
+    "published",
+    "title",
+    "link",
+    "source",
+    "sentiment_score",
+    "matched_categories",
+    "policy_row_score",
+}
+
+
 def _log(message: str) -> None:
     line = f"{datetime.now().strftime('%H:%M:%S')} | {message}"
     LOGGER.info(message)
@@ -69,9 +93,27 @@ def _load_csv(path: Path) -> pd.DataFrame:
     if not path.exists():
         _log(f"CSV not found: {path}")
         return pd.DataFrame()
-    df = pd.read_csv(path)
-    _log(f"Loaded CSV: {path.name} rows={len(df)}")
-    return df
+    try:
+        df = pd.read_csv(path)
+        _log(f"Loaded CSV: {path.name} rows={len(df)}")
+        return df
+    except Exception as e:
+        _log(f"Failed to read CSV: {path.name} ({e})")
+        return pd.DataFrame()
+
+
+def _missing_columns(df: pd.DataFrame, required: set[str]) -> list[str]:
+    return sorted(col for col in required if col not in df.columns)
+
+
+def _warn_if_missing(df: pd.DataFrame, required: set[str], label: str) -> bool:
+    missing = _missing_columns(df, required)
+    if not missing:
+        return False
+    msg = f"{label} is missing columns: {', '.join(missing)}"
+    _log(msg)
+    st.warning(msg)
+    return True
 
 
 def _refresh_news_reports() -> None:
@@ -179,8 +221,12 @@ def _screen_company_news() -> None:
         st.warning("Company summary report not found. Click refresh.")
         return
 
+    if _warn_if_missing(c, COMPANY_SUMMARY_REQUIRED, "Company summary CSV"):
+        return
+
     min_news = st.slider("Min News Count", 1, int(c["news_count"].max()), 3)
-    vibes = st.multiselect("Vibe", sorted(c["vibe"].dropna().unique().tolist()), default=sorted(c["vibe"].dropna().unique().tolist()))
+    vibes_all = sorted(c["vibe"].dropna().unique().tolist())
+    vibes = st.multiselect("Vibe", vibes_all, default=vibes_all)
 
     view = c[(c["news_count"] >= min_news) & (c["vibe"].isin(vibes))].copy()
     st.dataframe(view, use_container_width=True)
@@ -188,16 +234,24 @@ def _screen_company_news() -> None:
     st.markdown("Top 20 Positive by Avg Sentiment")
     st.dataframe(view.sort_values("avg_sentiment", ascending=False).head(20), use_container_width=True)
 
-    if not d.empty:
-        st.markdown("Recent Headlines")
-        symbols = sorted(d["symbol"].dropna().astype(str).unique().tolist())
-        selected = st.selectbox("Symbol", symbols, index=0)
-        dv = d[d["symbol"].astype(str) == selected].head(30).copy()
-        st.dataframe(
-            dv[["symbol", "published", "title", "link", "source", "sentiment_label", "sentiment_score"]],
-            use_container_width=True,
-            column_config={"link": st.column_config.LinkColumn("News Link")},
-        )
+    if d.empty:
+        return
+    if _warn_if_missing(d, COMPANY_DETAILS_REQUIRED, "Company details CSV"):
+        return
+
+    st.markdown("Recent Headlines")
+    symbols = sorted(d["symbol"].dropna().astype(str).unique().tolist())
+    if not symbols:
+        st.info("Company details CSV has no symbol rows to display.")
+        return
+
+    selected = st.selectbox("Symbol", symbols, index=0)
+    dv = d[d["symbol"].astype(str) == selected].head(30).copy()
+    st.dataframe(
+        dv[["symbol", "published", "title", "link", "source", "sentiment_label", "sentiment_score"]],
+        use_container_width=True,
+        column_config={"link": st.column_config.LinkColumn("News Link")},
+    )
 
 
 def _screen_ceo_commentary() -> None:
@@ -210,6 +264,9 @@ def _screen_ceo_commentary() -> None:
         st.warning("CEO summary report not found. Click refresh in Company News screen.")
         return
 
+    if _warn_if_missing(ceo, CEO_SUMMARY_REQUIRED, "CEO summary CSV"):
+        return
+
     min_news = st.slider("Min CEO Mentions", 1, int(max(1, ceo["news_count"].max())), 2)
     view = ceo[ceo["news_count"] >= min_news].copy()
     st.dataframe(view, use_container_width=True)
@@ -217,15 +274,23 @@ def _screen_ceo_commentary() -> None:
     st.markdown("Top 20 CEO Sentiment")
     st.dataframe(view.sort_values("avg_sentiment", ascending=False).head(20), use_container_width=True)
 
-    if not d.empty:
-        symbols = sorted(d["symbol"].dropna().astype(str).unique().tolist())
-        selected = st.selectbox("Symbol (CEO)", symbols, index=0)
-        dv = d[d["symbol"].astype(str) == selected].head(30).copy()
-        st.dataframe(
-            dv[["symbol", "published", "title", "link", "source", "sentiment_label", "sentiment_score"]],
-            use_container_width=True,
-            column_config={"link": st.column_config.LinkColumn("News Link")},
-        )
+    if d.empty:
+        return
+    if _warn_if_missing(d, COMPANY_DETAILS_REQUIRED, "CEO details CSV"):
+        return
+
+    symbols = sorted(d["symbol"].dropna().astype(str).unique().tolist())
+    if not symbols:
+        st.info("CEO details CSV has no symbol rows to display.")
+        return
+
+    selected = st.selectbox("Symbol (CEO)", symbols, index=0)
+    dv = d[d["symbol"].astype(str) == selected].head(30).copy()
+    st.dataframe(
+        dv[["symbol", "published", "title", "link", "source", "sentiment_label", "sentiment_score"]],
+        use_container_width=True,
+        column_config={"link": st.column_config.LinkColumn("News Link")},
+    )
 
 
 def _screen_policy_beneficiaries() -> None:
@@ -244,6 +309,9 @@ def _screen_policy_beneficiaries() -> None:
         st.warning("Policy beneficiary report not found. Generate company news first, then refresh this page.")
         return
 
+    if _warn_if_missing(p, POLICY_SUMMARY_REQUIRED, "Policy summary CSV"):
+        return
+
     min_mentions = st.slider("Min Scheme Mentions", 1, int(max(1, p["scheme_mentions"].max())), 2)
     buckets = sorted(p["benefit_bucket"].dropna().unique().tolist())
     selected_buckets = st.multiselect("Benefit Category", buckets, default=buckets)
@@ -254,15 +322,23 @@ def _screen_policy_beneficiaries() -> None:
     st.markdown("Top 25 by Policy Benefit Score")
     st.dataframe(view.sort_values("policy_benefit_score", ascending=False).head(25), use_container_width=True)
 
-    if not e.empty:
-        symbols = sorted(e["symbol"].dropna().astype(str).unique().tolist())
-        selected = st.selectbox("Symbol (Policy Evidence)", symbols, index=0)
-        ev = e[e["symbol"].astype(str) == selected].head(30).copy()
-        st.dataframe(
-            ev[["symbol", "published", "title", "link", "source", "sentiment_score", "matched_categories", "policy_row_score"]],
-            use_container_width=True,
-            column_config={"link": st.column_config.LinkColumn("News Link")},
-        )
+    if e.empty:
+        return
+    if _warn_if_missing(e, POLICY_EVIDENCE_REQUIRED, "Policy evidence CSV"):
+        return
+
+    symbols = sorted(e["symbol"].dropna().astype(str).unique().tolist())
+    if not symbols:
+        st.info("Policy evidence CSV has no symbol rows to display.")
+        return
+
+    selected = st.selectbox("Symbol (Policy Evidence)", symbols, index=0)
+    ev = e[e["symbol"].astype(str) == selected].head(30).copy()
+    st.dataframe(
+        ev[["symbol", "published", "title", "link", "source", "sentiment_score", "matched_categories", "policy_row_score"]],
+        use_container_width=True,
+        column_config={"link": st.column_config.LinkColumn("News Link")},
+    )
 
 
 def _screen_fundamentals() -> None:
