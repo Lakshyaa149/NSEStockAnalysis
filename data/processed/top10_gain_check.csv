@@ -1,0 +1,11 @@
+symbol,company_name,score,return_potential_flag,start_date,end_date,start_close,end_close,return_pct
+HCLTECH,HCL Technologies Limited,11,High Potential,,,,,
+CANBK,Canara Bank,10,High Potential,,,,,
+AURIONPRO,Aurionpro Solutions Limited,10,High Potential,,,,,
+BANKBARODA,Bank of Baroda,10,High Potential,,,,,
+HEXT,Hexaware Technologies Limited,10,High Potential,2026-02-20,2026-02-20,520.95,520.95,0.0
+GLAXO,GlaxoSmithKline Pharmaceuticals Limited,10,High Potential,,,,,
+DIGIDRIVE,Digidrive Distributors Limited,9,High Potential,,,,,
+HEROMOTOCO,Hero MotoCorp Limited,9,High Potential,2026-02-20,2026-02-20,5465.0,5465.0,0.0
+DEVIT,Dev Information Technology Limited,9,High Potential,,,,,
+GENESYS,Genesys International Corporation Limited,9,High Potential,,,,,
