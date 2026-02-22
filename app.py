@@ -1,11 +1,23 @@
 from __future__ import annotations
 
-import subprocess
-import sys
+import io
+import logging
+from contextlib import redirect_stderr, redirect_stdout
+from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+import yaml
+
+from src.main import backtest as run_backtest
+from src.main import fundamentals_report as run_fundamentals_report
+from src.main import news_report as run_news_report
+from src.main import policy_report as run_policy_report
+from src.main import train as run_train
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+LOGGER = logging.getLogger("nse_ui")
 
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "configs" / "default.yaml"
@@ -15,60 +27,101 @@ COMPANY_SUMMARY = PROCESSED_DIR / "company_news_sentiment_summary_30d.csv"
 COMPANY_DETAILS = PROCESSED_DIR / "company_news_sentiment_details_30d.csv"
 CEO_SUMMARY = PROCESSED_DIR / "ceo_commentary_sentiment_summary_30d.csv"
 CEO_DETAILS = PROCESSED_DIR / "ceo_commentary_sentiment_details_30d.csv"
+POLICY_SUMMARY = PROCESSED_DIR / "policy_beneficiary_stocks.csv"
+POLICY_EVIDENCE = PROCESSED_DIR / "policy_beneficiary_evidence.csv"
 FUND_RANKED = PROCESSED_DIR / "fundamentals_ranked_report.csv"
 FUND_TOP = PROCESSED_DIR / "fundamentals_top_picks.csv"
 
 
-def _run_command(args: list[str]) -> tuple[bool, str]:
-    proc = subprocess.run(
-        args,
-        cwd=str(ROOT),
-        capture_output=True,
-        text=True,
-    )
-    output = (proc.stdout or "") + ("\n" + proc.stderr if proc.stderr else "")
-    return proc.returncode == 0, output.strip()
+def _log(message: str) -> None:
+    line = f"{datetime.now().strftime('%H:%M:%S')} | {message}"
+    LOGGER.info(message)
+    logs = st.session_state.get("app_logs", [])
+    logs.append(line)
+    st.session_state["app_logs"] = logs[-500:]
 
 
-@st.cache_data(ttl=300)
+def _load_config() -> dict:
+    _log(f"Loading config from {CONFIG_PATH}")
+    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f)
+
+
+def _run_main_function(fn, cfg: dict) -> tuple[bool, str]:
+    name = getattr(fn, "__name__", "unknown_fn")
+    _log(f"Running function: {name}")
+    buffer = io.StringIO()
+    try:
+        with redirect_stdout(buffer), redirect_stderr(buffer):
+            fn(cfg)
+        _log(f"Function succeeded: {name}")
+        return True, buffer.getvalue().strip()
+    except Exception as e:
+        _log(f"Function failed: {name} ({e})")
+        logs = buffer.getvalue().strip()
+        if logs:
+            logs += "\n"
+        logs += f"ERROR: {e}"
+        return False, logs
+
+
 def _load_csv(path: Path) -> pd.DataFrame:
     if not path.exists():
+        _log(f"CSV not found: {path}")
         return pd.DataFrame()
-    return pd.read_csv(path)
+    df = pd.read_csv(path)
+    _log(f"Loaded CSV: {path.name} rows={len(df)}")
+    return df
 
 
 def _refresh_news_reports() -> None:
-    ok, out = _run_command([
-        sys.executable,
-        "-m",
-        "src.main",
-        "news_report",
-        "--config",
-        str(CONFIG_PATH),
-    ])
+    _log("Trigger: refresh news reports")
+    ok, out = _run_main_function(run_news_report, _load_config())
     st.session_state["last_news_output"] = out[-8000:]
     if ok:
-        _load_csv.clear()
         st.success("News reports refreshed.")
     else:
         st.error("News report refresh failed.")
 
 
+def _refresh_policy_report() -> None:
+    _log("Trigger: refresh policy beneficiary report")
+    ok, out = _run_main_function(run_policy_report, _load_config())
+    st.session_state["last_policy_output"] = out[-8000:]
+    if ok:
+        st.success("Policy beneficiary report refreshed.")
+    else:
+        st.error("Policy beneficiary report refresh failed.")
+
+
 def _refresh_fundamentals_report() -> None:
-    ok, out = _run_command([
-        sys.executable,
-        "-m",
-        "src.main",
-        "fundamentals_report",
-        "--config",
-        str(CONFIG_PATH),
-    ])
+    _log("Trigger: refresh fundamentals report")
+    ok, out = _run_main_function(run_fundamentals_report, _load_config())
     st.session_state["last_fund_output"] = out[-8000:]
     if ok:
-        _load_csv.clear()
         st.success("Fundamentals report refreshed.")
     else:
         st.error("Fundamentals report refresh failed.")
+
+
+def _run_training() -> None:
+    _log("Trigger: run train")
+    ok, out = _run_main_function(run_train, _load_config())
+    st.session_state["last_train_output"] = out[-8000:]
+    if ok:
+        st.success("Training completed.")
+    else:
+        st.error("Training failed.")
+
+
+def _run_backtest_job() -> None:
+    _log("Trigger: run backtest")
+    ok, out = _run_main_function(run_backtest, _load_config())
+    st.session_state["last_backtest_output"] = out[-8000:]
+    if ok:
+        st.success("Backtest completed.")
+    else:
+        st.error("Backtest failed.")
 
 
 def _kpi(label: str, value: str) -> None:
@@ -76,23 +129,44 @@ def _kpi(label: str, value: str) -> None:
 
 
 def _screen_overview() -> None:
+    _log("Screen: Overview")
     st.subheader("Overview")
     c = _load_csv(COMPANY_SUMMARY)
     ceo = _load_csv(CEO_SUMMARY)
+    p = _load_csv(POLICY_SUMMARY)
     f = _load_csv(FUND_RANKED)
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
     with col1:
         _kpi("Company Sentiment Rows", f"{len(c):,}")
     with col2:
         _kpi("CEO Sentiment Rows", f"{len(ceo):,}")
     with col3:
+        _kpi("Policy Beneficiary Rows", f"{len(p):,}")
+    with col4:
         _kpi("Fundamentals Rows", f"{len(f):,}")
 
     st.caption("Use the left navigation to open each screen.")
 
 
+def _screen_modeling() -> None:
+    _log("Screen: Modeling")
+    st.subheader("Modeling (Train + Backtest)")
+    c1, c2 = st.columns(2)
+
+    with c1:
+        if st.button("Run Train", use_container_width=True):
+            with st.spinner("Running train..."):
+                _run_training()
+
+    with c2:
+        if st.button("Run Backtest", use_container_width=True):
+            with st.spinner("Running backtest..."):
+                _run_backtest_job()
+
+
 def _screen_company_news() -> None:
+    _log("Screen: Company News")
     st.subheader("Company News Sentiment (30D)")
     if st.button("Create/Refresh Company + CEO News Reports", use_container_width=True):
         with st.spinner("Running news_report..."):
@@ -127,6 +201,7 @@ def _screen_company_news() -> None:
 
 
 def _screen_ceo_commentary() -> None:
+    _log("Screen: CEO Commentary")
     st.subheader("CEO Commentary Sentiment (30D)")
     ceo = _load_csv(CEO_SUMMARY)
     d = _load_csv(CEO_DETAILS)
@@ -153,7 +228,45 @@ def _screen_ceo_commentary() -> None:
         )
 
 
+def _screen_policy_beneficiaries() -> None:
+    _log("Screen: Policy Beneficiaries")
+    st.subheader("Policy / Government Scheme Beneficiary Stocks")
+    st.caption("Built from company Google-news headlines using policy/scheme keyword + sentiment scoring.")
+
+    if st.button("Create/Refresh Policy Beneficiary Report", use_container_width=True):
+        with st.spinner("Running policy_report..."):
+            _refresh_policy_report()
+
+    p = _load_csv(POLICY_SUMMARY)
+    e = _load_csv(POLICY_EVIDENCE)
+
+    if p.empty:
+        st.warning("Policy beneficiary report not found. Generate company news first, then refresh this page.")
+        return
+
+    min_mentions = st.slider("Min Scheme Mentions", 1, int(max(1, p["scheme_mentions"].max())), 2)
+    buckets = sorted(p["benefit_bucket"].dropna().unique().tolist())
+    selected_buckets = st.multiselect("Benefit Category", buckets, default=buckets)
+
+    view = p[(p["scheme_mentions"] >= min_mentions) & (p["benefit_bucket"].isin(selected_buckets))].copy()
+    st.dataframe(view, use_container_width=True)
+
+    st.markdown("Top 25 by Policy Benefit Score")
+    st.dataframe(view.sort_values("policy_benefit_score", ascending=False).head(25), use_container_width=True)
+
+    if not e.empty:
+        symbols = sorted(e["symbol"].dropna().astype(str).unique().tolist())
+        selected = st.selectbox("Symbol (Policy Evidence)", symbols, index=0)
+        ev = e[e["symbol"].astype(str) == selected].head(30).copy()
+        st.dataframe(
+            ev[["symbol", "published", "title", "link", "source", "sentiment_score", "matched_categories", "policy_row_score"]],
+            use_container_width=True,
+            column_config={"link": st.column_config.LinkColumn("News Link")},
+        )
+
+
 def _screen_fundamentals() -> None:
+    _log("Screen: Fundamentals")
     st.subheader("Fundamentals + Sentiment Ranking")
     if st.button("Create/Refresh Fundamentals Report", use_container_width=True):
         with st.spinner("Running fundamentals_report..."):
@@ -206,17 +319,26 @@ def main() -> None:
 
     screens = {
         "Overview": _screen_overview,
+        "Modeling": _screen_modeling,
         "Company News": _screen_company_news,
         "CEO Commentary": _screen_ceo_commentary,
+        "Policy Beneficiaries": _screen_policy_beneficiaries,
         "Fundamentals": _screen_fundamentals,
     }
 
     choice = st.sidebar.radio("Screen", list(screens.keys()))
+    _log(f"Navigation selected: {choice}")
     screens[choice]()
 
     with st.expander("Command Logs"):
-        st.text_area("news_report output", st.session_state.get("last_news_output", ""), height=180)
-        st.text_area("fundamentals_report output", st.session_state.get("last_fund_output", ""), height=180)
+        st.text_area("train output", st.session_state.get("last_train_output", ""), height=140)
+        st.text_area("backtest output", st.session_state.get("last_backtest_output", ""), height=140)
+        st.text_area("news_report output", st.session_state.get("last_news_output", ""), height=140)
+        st.text_area("policy_report output", st.session_state.get("last_policy_output", ""), height=140)
+        st.text_area("fundamentals_report output", st.session_state.get("last_fund_output", ""), height=140)
+
+    with st.expander("App Logs"):
+        st.text_area("app logs", "\n".join(st.session_state.get("app_logs", [])), height=260)
 
 
 if __name__ == "__main__":

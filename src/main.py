@@ -8,6 +8,7 @@ from src.models.train import prepare_training_frame, fit_model, FEATURES
 from src.risk.overlay import apply_risk_overlay
 from src.backtest.engine import run_backtest
 from src.news.report import generate_30d_news_and_ceo_reports
+from src.news.policy_report import generate_policy_benefit_report
 from src.fundamentals.report import generate_fundamentals_report
 
 
@@ -62,6 +63,29 @@ def news_report(cfg):
     print(f"- {outputs['ceo_details_csv']}")
 
 
+def policy_report(cfg):
+    rep = generate_policy_benefit_report(cfg["policy"])
+    if rep.empty:
+        print("\nPolicy beneficiary report is empty.")
+    else:
+        cols = [
+            "symbol",
+            "scheme_mentions",
+            "avg_scheme_sentiment",
+            "policy_benefit_score",
+            "benefit_bucket",
+            "matched_categories",
+        ]
+        show_cols = [c for c in cols if c in rep.columns]
+        print("\nPolicy Beneficiary Stocks (Top 30)")
+        print(rep[show_cols].head(30).to_string(index=False))
+
+    out = cfg["policy"]["outputs"]
+    print("\nSaved files:")
+    print(f"- {out['summary_csv']}")
+    print(f"- {out['evidence_csv']}")
+
+
 def fundamentals_report(cfg):
     rep = generate_fundamentals_report(cfg["fundamentals"])
     cols = [
@@ -89,7 +113,7 @@ def fundamentals_report(cfg):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("command", choices=["train", "backtest", "news_report", "fundamentals_report"])
+    p.add_argument("command", choices=["train", "backtest", "news_report", "policy_report", "fundamentals_report"])
     p.add_argument("--config", required=True)
     args = p.parse_args()
     cfg = yaml.safe_load(open(args.config))
@@ -100,6 +124,8 @@ def main():
         backtest(cfg)
     elif args.command == "news_report":
         news_report(cfg)
+    elif args.command == "policy_report":
+        policy_report(cfg)
     else:
         fundamentals_report(cfg)
 

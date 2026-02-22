@@ -175,7 +175,11 @@ def generate_fundamentals_report(cfg: dict) -> pd.DataFrame:
     out_cfg = cfg["outputs"]
     Path(out_cfg["raw_fundamentals_csv"]).parent.mkdir(parents=True, exist_ok=True)
 
-    merged_fund = _merge_with_cache(universe, fresh, out_cfg["raw_fundamentals_csv"])
+    use_cache = bool(cfg.get("use_cache", False))
+    if use_cache:
+        merged_fund = _merge_with_cache(universe, fresh, out_cfg["raw_fundamentals_csv"])
+    else:
+        merged_fund = universe[["symbol"]].merge(fresh, on="symbol", how="left")
     merged_fund.to_csv(out_cfg["raw_fundamentals_csv"], index=False)
 
     df = universe.merge(merged_fund, on="symbol", how="left", suffixes=("", "_dup"))

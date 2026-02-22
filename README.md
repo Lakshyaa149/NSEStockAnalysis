@@ -1,35 +1,49 @@
 # NSEStockAnalysis
 
-NSE stock analysis project that combines:
+NSE stock analysis platform with data pipelines + Streamlit UI.
 
-- 30-day company news sentiment
+## What It Does
+
+- 30-day company news sentiment (Google News based)
 - 30-day CEO commentary sentiment
-- Fundamentals screening (PE, forward PE, PEG, ROE, debt/equity, profit margins)
-- Promoter-holding proxy (via insider holding field from Yahoo)
-- Ranked output with return-potential categories
-- Streamlit UI with separate screens for each report
+- Policy-beneficiary stock detection (government scheme/policy signal from news)
+- Fundamentals screening (PE, forward PE, PEG, ROE, debt/equity, margins)
+- Ranked stock output with return-potential categories
+- UI controls to run train/backtest and refresh reports directly
 
-## Features
+## Key Features
 
-1. News Sentiment (All NSE symbols from universe file)
-- Fetches recent headlines (lookback configurable)
+1. `News Sentiment`
+- Fetches company news headlines
 - Scores sentiment per headline
-- Creates company-level and CEO-level sentiment summaries
+- Produces company and CEO sentiment summaries + details
 
-2. Fundamentals + Sentiment Ranking
-- Pulls fundamentals for NSE tickers (`.NS`)
-- Scores each stock using valuation + quality + sentiment rules
+2. `Policy Beneficiary Report`
+- Uses policy/scheme keyword categories (infra/capex, PLI, defence, energy transition, etc.)
+- Combines keyword coverage + sentiment into policy-benefit score
+- Returns likely beneficiary stocks with evidence links
+
+3. `Fundamentals + Sentiment Ranking`
+- Pulls NSE fundamentals (`.NS`) using market-data source
+- Combines valuation + quality + sentiment factors
 - Labels stocks as:
   - `High Potential`
   - `Watchlist`
   - `Avoid/Needs Work`
 
-3. UI Dashboard
-- `Overview`
-- `Company News`
-- `CEO Commentary`
-- `Fundamentals`
-- Buttons to create/refresh reports from UI
+4. `Modeling`
+- `Train`: trains model on technical + sentiment placeholder features
+- `Backtest`: computes strategy-level performance (Sharpe)
+
+5. `Integrated UI`
+- Screens:
+  - `Overview`
+  - `Modeling`
+  - `Company News`
+  - `CEO Commentary`
+  - `Policy Beneficiaries`
+  - `Fundamentals`
+- In-app `Command Logs` and `App Logs`
 
 ## Project Structure
 
@@ -42,13 +56,15 @@ NSEStockAnalysis/
       nse_companies.csv
       sample_prices.csv
     processed/
-      ...generated csv reports...
+      ...generated report csv files...
   src/
-    news/
-    fundamentals/
-    features/
-    models/
     backtest/
+    data/
+    features/
+    fundamentals/
+    models/
+    news/
+      policy_report.py
     risk/
     main.py
 ```
@@ -62,64 +78,81 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Run Reports
+## Run (CLI)
 
-### 1) Generate 30-day news reports
+### 1) News reports
 
 ```bash
 python -m src.main news_report --config configs/default.yaml
 ```
 
 Outputs:
-
 - `data/processed/company_news_sentiment_summary_30d.csv`
 - `data/processed/company_news_sentiment_details_30d.csv`
 - `data/processed/ceo_commentary_sentiment_summary_30d.csv`
 - `data/processed/ceo_commentary_sentiment_details_30d.csv`
 
-### 2) Generate fundamentals ranking report
+### 2) Policy beneficiary report
+
+```bash
+python -m src.main policy_report --config configs/default.yaml
+```
+
+Outputs:
+- `data/processed/policy_beneficiary_stocks.csv`
+- `data/processed/policy_beneficiary_evidence.csv`
+
+### 3) Fundamentals report
 
 ```bash
 python -m src.main fundamentals_report --config configs/default.yaml
 ```
 
 Outputs:
-
 - `data/processed/fundamentals_raw.csv`
 - `data/processed/fundamentals_ranked_report.csv`
 - `data/processed/fundamentals_top_picks.csv`
 
-## Run UI
+### 4) Modeling
+
+```bash
+python -m src.main train --config configs/default.yaml
+python -m src.main backtest --config configs/default.yaml
+```
+
+## Run (UI)
 
 ```bash
 streamlit run app.py
 ```
 
-Then open the local URL shown by Streamlit (usually `http://localhost:8501`).
+Open the local URL shown by Streamlit (e.g. `http://localhost:8502`).
 
 ## Configuration
 
-Edit `configs/default.yaml` to control:
+Edit `configs/default.yaml`:
 
-- `news.lookback_days`
-- `news.limit_per_company`
-- `news.max_workers`
-- `news.universe_csv`
-- `fundamentals.max_workers`
-- `fundamentals.max_companies`
-- output file paths
+- `news.*`
+  - `lookback_days`, `limit_per_company`, `max_workers`, `universe_csv`, `max_companies`
+  - `force_refresh: true` to always overwrite outputs with fresh run
+- `policy.*`
+  - `source_details_csv`
+  - output CSV paths
+- `fundamentals.*`
+  - `max_workers`, `max_companies`, `top_n`
+  - `use_cache: false` for fresh fundamentals each run
 
-## Important Notes
+## Fresh Data Behavior
 
-- This is a screening/analysis system, not investment advice.
-- Promoter holding is currently a proxy (`heldPercentInsiders`) where exact promoter data is unavailable.
-- Data providers may throttle or return partial fields; reruns can improve coverage.
-- News links are normalized to openable Google News article links.
+Current defaults are fresh-first:
 
-## Next Improvements
+- `news.force_refresh = true`
+- `fundamentals.use_cache = false`
+- UI reads CSVs directly (no 5-minute cache layer)
 
-- Replace sentiment model with finance-tuned FinBERT
-- Integrate direct promoter holding from exchange filings/data vendor
-- Add transaction cost model and walk-forward portfolio backtest
-- Add sector-neutral and risk-budget constraints
+## Notes
 
+- This is an analytics/screening tool, not investment advice.
+- Promoter holding currently uses insider-holding proxy where direct promoter data is unavailable.
+- External providers may throttle or return partial fields.
+- Policy-beneficiary output is signal-based and should be validated with fundamentals and risk controls.

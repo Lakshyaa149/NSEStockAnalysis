@@ -38,7 +38,40 @@ def _summarize(details_df: pd.DataFrame, symbol_col: str = "symbol") -> pd.DataF
     return summary.sort_values(["avg_sentiment", "news_count"], ascending=[False, False]).reset_index(drop=True)
 
 
-def _analyze_items(items: list[dict], output_details_csv: str) -> pd.DataFrame:
+def _existing_non_empty(csv_path: str) -> pd.DataFrame:
+    p = Path(csv_path)
+    if not p.exists():
+        return pd.DataFrame()
+    try:
+        df = pd.read_csv(p)
+        return df if not df.empty else pd.DataFrame()
+    except Exception:
+        return pd.DataFrame()
+
+
+def _write_output(new_df: pd.DataFrame, csv_path: str, preserve_non_empty: bool) -> pd.DataFrame:
+    p = Path(csv_path)
+    p.parent.mkdir(parents=True, exist_ok=True)
+
+    # Fresh mode: always overwrite, even with empty result.
+    if not preserve_non_empty:
+        new_df.to_csv(csv_path, index=False)
+        return new_df
+
+    # Preserve mode: keep old non-empty files if new result is empty.
+    if not new_df.empty:
+        new_df.to_csv(csv_path, index=False)
+        return new_df
+
+    existing = _existing_non_empty(csv_path)
+    if not existing.empty:
+        return existing
+
+    new_df.to_csv(csv_path, index=False)
+    return new_df
+
+
+def _analyze_items(items: list[dict], output_details_csv: str, preserve_non_empty: bool) -> pd.DataFrame:
     if not items:
         empty = pd.DataFrame(
             columns=[
@@ -51,9 +84,7 @@ def _analyze_items(items: list[dict], output_details_csv: str) -> pd.DataFrame:
                 "sentiment_score",
             ]
         )
-        Path(output_details_csv).parent.mkdir(parents=True, exist_ok=True)
-        empty.to_csv(output_details_csv, index=False)
-        return empty
+        return _write_output(empty, output_details_csv, preserve_non_empty)
 
     analyzer = NewsSentimentAnalyzer()
     rows = []
@@ -72,9 +103,7 @@ def _analyze_items(items: list[dict], output_details_csv: str) -> pd.DataFrame:
         )
 
     details_df = pd.DataFrame(rows)
-    Path(output_details_csv).parent.mkdir(parents=True, exist_ok=True)
-    details_df.to_csv(output_details_csv, index=False)
-    return details_df
+    return _write_output(details_df, output_details_csv, preserve_non_empty)
 
 
 def _load_companies(news_cfg: dict) -> list[dict]:
@@ -112,6 +141,11 @@ def generate_30d_news_and_ceo_reports(news_cfg: dict) -> tuple[pd.DataFrame, pd.
     limit_per_company = int(news_cfg.get("limit_per_company", 10))
     max_workers = int(news_cfg.get("max_workers", 12))
 
+    # force_refresh=True means always compute fresh and overwrite files.
+    # force_refresh=False preserves old non-empty files if new fetch is empty.
+    force_refresh = bool(news_cfg.get("force_refresh", True))
+    preserve_non_empty = not force_refresh
+
     companies = _load_companies(news_cfg)
 
     company_queries: dict[str, str] = {}
@@ -144,8 +178,8 @@ def generate_30d_news_and_ceo_reports(news_cfg: dict) -> tuple[pd.DataFrame, pd.
 
     outputs = news_cfg["outputs"]
 
-    company_details = _analyze_items(company_items, outputs["company_details_csv"])
-    ceo_details = _analyze_items(ceo_items, outputs["ceo_details_csv"])
+    company_details = _analyze_items(company_items, outputs["company_details_csv"], preserve_non_empty)
+    ceo_details = _analyze_items(ceo_items, outputs["ceo_details_csv"], preserve_non_empty)
 
     company_summary = _summarize(company_details) if not company_details.empty else pd.DataFrame(
         columns=["symbol", "news_count", "positive_count", "neutral_count", "negative_count", "avg_sentiment", "top_links", "vibe"]
@@ -154,10 +188,7 @@ def generate_30d_news_and_ceo_reports(news_cfg: dict) -> tuple[pd.DataFrame, pd.
         columns=["symbol", "news_count", "positive_count", "neutral_count", "negative_count", "avg_sentiment", "top_links", "vibe"]
     )
 
-    Path(outputs["company_summary_csv"]).parent.mkdir(parents=True, exist_ok=True)
-    company_summary.to_csv(outputs["company_summary_csv"], index=False)
-
-    Path(outputs["ceo_summary_csv"]).parent.mkdir(parents=True, exist_ok=True)
-    ceo_summary.to_csv(outputs["ceo_summary_csv"], index=False)
+    company_summary = _write_output(company_summary, outputs["company_summary_csv"], preserve_non_empty)
+    ceo_summary = _write_output(ceo_summary, outputs["ceo_summary_csv"], preserve_non_empty)
 
     return company_summary, ceo_summary
